@@ -3,6 +3,7 @@ import java.sql.SQLOutput;
 public class Ex02_operator {
     public static void main(String[] args) {
 
+//        << 공부 >>
 //        1. 기본 연산자
 //        1) 대입 연산자 : =
 //        2) 부효 연산자 : +, -
@@ -71,6 +72,7 @@ public class Ex02_operator {
 
 
 
+//        << 강의 >>
 //        산술연산자
 //        int num1 = 8, num2 = 3;
 //        ★ 출력값을 문자열 변수에 넣어서 사용  String result = "+ 연산자에 의한 결과 : " +(num1+num2);

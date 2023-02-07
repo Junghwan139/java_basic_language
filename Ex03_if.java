@@ -29,6 +29,15 @@ public class Ex03_if {
             System.out.println("성인 입니다.");
         }
 
+        age = sc.nextInt();
+        System.out.println("당신의 나이는 " + age + "세 입니다.");
+        if (age >= 8 && age <= 19) {
+            System.out.println("학교에 다닙니다.");
+        } else if (age < 8) {
+            System.out.println("미취학 아동입니다.");
+        } else {
+            System.out.println("성인 입니다.");
+
 
     }
 }

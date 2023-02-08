@@ -8,8 +8,8 @@ public class Ct01_sum {
         int num2 = 0;
         double a = 3;
         double b = 2;
-        double ab = a/b*1000;
-        answer = (int)ab;
+        double ab = a / b * 1000;
+        answer = (int) ab;
         System.out.println(answer);
 
 //        첫 번째 분수의 분자와 분모를 뜻하는 numer1, denom1,
@@ -22,39 +22,41 @@ public class Ct01_sum {
           입출력 예 #2
         9 / 2 + 1 / 3 = 29 / 6입니다. 따라서 [29, 6]을 return 합니다.*/
 
-        int numer1=1; //분자
-        int denom1=2; //분모
-        int numer2=3; //분자
-        int denom2=4; // 분모
-        int c=0;
-        int d=0;
-        int[] answer2= new int[2];
+        int numer1 = 9; //분자
+        int denom1 = 2; //분모
+        int numer2 = 1; //분자
+        int denom2 = 3; // 분모
+        int c = 0;
+        int d = 0;
+        int[] answer2 = new int[2];
 
-        if (denom2>denom1) {
-            if(denom2%denom1==0){
-                c = numer1*(denom2/denom1);
+        if (denom2 > denom1) {
+            if (denom2 % denom1 == 0) {
+                c = numer1 * (denom2 / denom1);
                 d = numer2;
-                answer2[0] =c+d;
-                answer2[1] =denom2;
-            }else {
-                c=numer1*denom2;
-                d=numer2*denom1;
-                answer2[0]=c+d;
-                answer2[1]=denom1*denom2;
+                answer2[0] = c + d;
+                answer2[1] = denom2;
+            } else {
+                c = numer1 * denom2;
+                d = numer2 * denom1;
+                answer2[0] = c + d;
+                answer2[1] = denom1 * denom2;
             }
-        }if(denom1%denom2==0){
-            c = numer2*(denom1/denom2);
-            d = numer1;
-            answer2[0] =c+d;
-            answer2[1] =denom1;
-        }else{
-            c=numer2*denom1;
-            d=numer1*denom2;
-            answer2[0]=c+d;
-            answer2[1]=denom2*denom1;
-        }
-        System.out.printf("{%d},{%d}",answer2[0],answer2[1]);
+        } else {
+            if (denom1 % denom2 == 0) {
+                c = numer2 * (denom1 / denom2);
+                d = numer1;
+                answer2[0] = c + d;
+                answer2[1] = denom1;
+            } else {
+                c = numer2 * denom1;
+                d = numer1 * denom2;
+                answer2[0] = c + d;
+                answer2[1] = denom2 * denom1;
+            }
 
+        }
+        System.out.printf("{%d},{%d}", answer2[0], answer2[1]);
     }
 
 }

@@ -12,22 +12,21 @@ public class Ct03_mid {
                 [1, 2, 7, 10, 11]	7
                 [9, -1, 0]	0*/
 
-        int array[] = {1, 2, 7, 10, 11};
+
+        int array[] = {3, 2, 1, 10, 11};
         int leng = array.length;
         int i;
         int j;
-        for(i=0;i<leng;i++){
-            for(j=i+1;j<leng;j++) {
-                if(array[i] < array[j]){
-                    array[i]=array[i];
+        int k;
+         
+        for (i = 0; i < leng; i++) {
+            for (j = 0; j < leng; j++) {
+                if (array[i] < array[j]) {
+
+
+
                 }
             }
-
         }
-
-
-
-
-
     }
 }

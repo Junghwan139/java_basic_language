@@ -18,15 +18,23 @@ public class Ct03_mid {
         int i;
         int j;
         int k;
-         
+
         for (i = 0; i < leng; i++) {
-            for (j = 0; j < leng; j++) {
-                if (array[i] < array[j]) {
-
-
+            for (j = i + 1; j < leng; j++) {
+                if (array[i] > array[j]) {
+                    k = array[i];
+                    array[i] = array[j];
+                    array[j] = k;
 
                 }
             }
         }
+        int l=leng/2;
+        System.out.println(array[l]);
+        System.out.printf("[%d][%d][%d][%d][%d]",array[0],array[1],array[2],array[3],array[4]);
+
+
+
     }
+
 }

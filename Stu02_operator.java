@@ -1,6 +1,4 @@
-import java.sql.SQLOutput;
-
-public class Ex02_operator {
+public class Stu02_operator {
     public static void main(String[] args) {
 
 //        << 공부 >>

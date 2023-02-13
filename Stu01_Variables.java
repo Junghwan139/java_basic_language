@@ -1,7 +1,7 @@
 import java.math.BigDecimal;
 import java.util.ArrayList;
 
-public class Ex01_Variables {
+public class Stu01_Variables {
     public static void main(String[] args) {
 
 //        1. 변수란 무엇일까.

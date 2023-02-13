@@ -1,6 +1,4 @@
-import java.util.Scanner;
-
-public class Ex03_if {
+public class Stu03_if {
     public static void main(String[] args) {
 
 //        <<공부>>

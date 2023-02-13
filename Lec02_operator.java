@@ -1,6 +1,6 @@
-public class Le03_operator {
+public class Lec02_operator {
     public static void main(String[] args) {
-//        산술연산자
+//        1. 산술연산자
 //        int num1 = 8, num2 = 3;
 //        ★ 출력값을 문자열 변수에 넣어서 사용  String result = "+ 연산자에 의한 결과 : " +(num1+num2);
 //        System.out.println(result);
@@ -10,12 +10,12 @@ public class Le03_operator {
 //        System.out.println("/ 연산자에 의한 결과 : "+(num1/num2));
 //        System.out.println("% 연산자에 의한 결과 : "+(num1%num2));
 
-//        문자더하기, 숫자더하기
+//        2. 문자더하기, 숫자더하기
 //        int num1 = 10;
 //        String s1 = "20";
 //        System.out.println(num1+s1);
 
-//        대입연산자
+//        3. 대입연산자
 //        int num1 = 7, num2 = 7, num3 =7;
 //        num1 = num1-3;
 //        num2 -= 3;
@@ -25,7 +25,7 @@ public class Le03_operator {
 //        System.out.println(" -= 연산자에 의한 결과 : "+num2);
 //        System.out.println(" =- 연산자에 의한 결과 : "+num3);
 
-//        논리연산자
+//        4. 논리연산자
 //        주의해야할 기호 : !=, <=
 //        int num1 = 10; int num2 = 20;
 //        boolean b1 = true;
@@ -55,7 +55,7 @@ public class Le03_operator {
 //            System.out.println(i);
 //        }
 
-//        삼항연산자 : 3개의 항이 있는 연산자, if문과 연동
+//        5. 삼항연산자 : 3개의 항이 있는 연산자, if문과 연동
 //        조건식 ? 참이면 : 거짓이면
         int a = 10;
         int b = 20;

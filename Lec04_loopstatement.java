@@ -1,4 +1,6 @@
-public class Le04_loopstatement {
+import java.util.Scanner;
+
+public class Lec04_loopstatement {
     public static void main(String[] args) {
 
 
@@ -6,9 +8,7 @@ public class Le04_loopstatement {
 
 //        int num에 숫자가 주어졌을때
 //        해당 숫자를 가지고 n*1, n*2, n*3 ... n*9 단을 출력해보자.
-
 //        print함수로 개별로 출력
-
 //        System.out.println(number + " * 1 = " + number * 1);
 //        System.out.println(number + " * 2 = " + number * 2);
 //        System.out.println(number + " * 3 = " + number * 3);
@@ -19,54 +19,59 @@ public class Le04_loopstatement {
 //        System.out.println(number + " * 8 = " + number * 8);
 //        System.out.println(number + " * 9 = " + number * 9);
 
-//        //while문 기본 문법 : 특정조건을 맞추지 않으면 무한반복 하는 것이 기본 조건 → 규칙을 찾아라(수열)
-//        Scanner sc = new Scanner(System.in);
-//        System.out.print("번호를 입력하세요 : ");
-//        int number = sc.nextInt();
-//
-//        int a =1;
-//
-//        while(true){
-//            a=1;
-//
-//            while(a<10){
-//                System.out.println(number+" * "+a+" = "+number*a );
-//                a++;
-//            }
-//
-//        }
+//        1) while문  : 기본문법은 특정조건을 맞추지 않으면 무한반복 하는 것이 기본 조건
+//                      while문(반복문) 작성을 위해서는 반복되는 규칙을 찾아라(수열)
 
-//        정수 n이 매개변수로 주어질 때 n의 각 자리 숫자의 합을 return하도록 solution 함수를 완성해주세요
+//        (예시1) 입력받은 숫자 구구단
+        Scanner sc = new Scanner(System.in);
+        System.out.print("번호를 입력하세요 : ");
 
-//        int n = 0;
-//        int l = 0;
-//        int k =0;
-//        int answer =0;
-//        n = 32;
-//        l = 32/10+32%10;
-//        System.out.println(l);
-//        n = 321;
-//        answer +=a%10
-//        a/=10
-//        answer +=a%10
-//        a/=10
-//        answer +=a%10
+        int number = sc.nextInt();
+        int a = 1;
+        while (a < 10) {
+            System.out.println(number + " * " + a + " = " + number * a);
+            a++;
+        }
 
-//        l = 321/100+321%100/10+321%100%10;
-//        System.out.println(l);
-//        n = 4321;
-//        l = 4321%10+4321/10%10+4321/10/10%10+4321/10/10/10%10;
-//        System.out.println(l);
+        System.out.println("------------------------------------------------------------------------------------------");
 
-//        n=54321;
-//        while(n>0){
-//            l = n % 10;
-//            k = k+l;
-//            n = n / 10;
-//        }
-//        answer = k;
-//        System.out.println(k);
-//
+        System.out.println("(코딩테스트 1) 정수 n이 매개변수로 주어질 때 n의 각 자리 숫자의 합을 return하도록 solution 함수를 완성해주세요");
+        System.out.println("n=54321 일때, 5+4+3+2+1 = ?");
+
+        int n = 0;
+        int l = 0;
+        int k =0;
+        int answer =0;
+
+        n=54321;
+        while(n>0){
+            l = n % 10;  // l = 1     l = 2
+            k = k+l;     // k = 0+1   k = 1+2
+            n = n / 10;  // n = 5432  n = 543
+        }
+
+        answer = k;
+        System.out.println(k);
+
+        /*
+        n = 32;
+        l = 32/10+32%10;
+        System.out.println(l);
+        n = 321;
+        answer +=a%10
+        a/=10
+        answer +=a%10
+        a/=10
+        answer +=a%10
+
+        l = 321/100+321%100/10+321%100%10;
+        System.out.println(l);
+        n = 4321;
+        l = 4321%10+4321/10%10+4321/10/10%10+4321/10/10/10%10;
+        System.out.println(l);  */
+
+
+
 
 //        약수의 갯수를 구하기
 //
@@ -132,7 +137,6 @@ public class Le04_loopstatement {
 //        }
 
 
-
 //        변수의 유효범위는 {  } 까지만 유효하고 하위 depth에서는 상위 depth값을 알지만
 //        상위 depth에서는 하위 depth에서 선언된 값을 알지 못한다.
 
@@ -147,7 +151,6 @@ public class Le04_loopstatement {
 //            arr1[i] +=10;
 //            System.out.print(arr1[i]+" ");
 //        }
-
 
 
 //        enhanced for 문
@@ -172,19 +175,13 @@ public class Le04_loopstatement {
 //        함수형 코딩(자바8부터 바뀜) → 사본으로 작업
 
 //        2중(다중) 반복문
-
-        int num = 2;
-        for(int i = 2;i<6;i++){
-            System.out.println(i+"단 입니다.");
-            for(int j =1;j<10;j++)
-                System.out.println(i + " * "+j+" = "+i*j);
-        }
-
-
-
-        
-
-
+//
+//        int num = 2;
+//        for(int i = 2;i<6;i++){
+//            System.out.println(i+"단 입니다.");
+//            for(int j =1;j<10;j++)
+//                System.out.println(i + " * "+j+" = "+i*j);
+//        }
 
 
     } // 메인함수

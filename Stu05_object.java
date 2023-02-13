@@ -1,7 +1,7 @@
 
 //클래스 외부에는 package와 import선언만 가능
 //클래스
-public class Ex05_object {
+public class Stu05_object {
     int csId;
 
 

@@ -1,4 +1,4 @@
-public class Ex04_for_while {
+public class Stu04_for_while {
     public static void main(String[] args) {
 
 //        << 공부 >>

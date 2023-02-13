@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class Lec04_loopstatement {
     public static void main(String[] args) {
 
@@ -22,11 +20,13 @@ public class Lec04_loopstatement {
 //        1) while문  : 기본문법은 특정조건을 맞추지 않으면 무한반복 하는 것이 기본 조건
 //                      while문(반복문) 작성을 위해서는 반복되는 규칙을 찾아라(수열)
 
-//        (예시1) 입력받은 숫자 구구단
-        Scanner sc = new Scanner(System.in);
-        System.out.print("번호를 입력하세요 : ");
+        System.out.println("[while문]");
+        System.out.println("(예제1) 입력받은 숫자 구구단 ");
+//
+        //Scanner sc = new Scanner(System.in);
+        //System.out.print("번호를 입력하세요 : ");
 
-        int number = sc.nextInt();
+        int number = 3; //sc.nextInt();
         int a = 1;
         while (a < 10) {
             System.out.println(number + " * " + a + " = " + number * a);
@@ -35,7 +35,7 @@ public class Lec04_loopstatement {
 
         System.out.println("------------------------------------------------------------------------------------------");
 
-        System.out.println("(코딩테스트 1) 정수 n이 매개변수로 주어질 때 n의 각 자리 숫자의 합을 return하도록 solution 함수를 완성해주세요");
+        System.out.println("(예제2-코딩테스트) 정수 n이 매개변수로 주어질 때 n의 각 자리 숫자의 합을 return하도록 solution 함수를 완성해주세요");
         System.out.println("n=54321 일때, 5+4+3+2+1 = ?");
 
         int n = 0;
@@ -53,37 +53,20 @@ public class Lec04_loopstatement {
         answer = k;
         System.out.println(k);
 
-        /*
-        n = 32;
-        l = 32/10+32%10;
-        System.out.println(l);
-        n = 321;
-        answer +=a%10
-        a/=10
-        answer +=a%10
-        a/=10
-        answer +=a%10
-
-        l = 321/100+321%100/10+321%100%10;
-        System.out.println(l);
-        n = 4321;
-        l = 4321%10+4321/10%10+4321/10/10%10+4321/10/10/10%10;
-        System.out.println(l);  */
-
-
-
-
-//        약수의 갯수를 구하기
+        System.out.println("(예제3) 약수의 갯수 구하기");
+//        약수의 갯수를 구하기 → 나누 었을 때 나머지가 0
 //
-//        int n = 100;
-//        int i = 1;
-//        int j = 0;
-//        while(i<n+1){
-//            if (n % i == 0) {
-//                j++;
-//            }
-//            i++;
-//        }
+        int n1 = 100;
+        int i = 1;
+        int j = 0;
+        while(i<n1+1){
+            if (n1 % i == 0) {
+                j++;
+            }
+            i++;
+        }
+
+        System.out.println(j);
 //
 //        System.out.println(j);
 //        int a= 10;
@@ -129,8 +112,7 @@ public class Lec04_loopstatement {
 //
 //        }
 //
-        //for(초기식;조건식;증감식)
-        //   {출력}
+//        2) for문(초기식;조건식;증감식) {출력}
 
 //        for(int a=100;a>0;a--){
 //            System.out.println("hello"+a);
@@ -144,7 +126,7 @@ public class Lec04_loopstatement {
 //        int n1 = 10;
 //        int n2 = 20;
 //        int n3 = 30;
-//        int[] arr1 = {10, 20, 30, 40, 50};
+        int[] arr1 = {10, 20, 30, 40, 50};
 //        //System.out.println(arr1[0]);
 //
 //        for(int i = 0;i<5;i++){
@@ -153,29 +135,27 @@ public class Lec04_loopstatement {
 //        }
 
 
-//        enhanced for 문
-//
-//        for(int a : arr1){
-//            System.out.println(a);
-//        }
+//        ★3)enhanced for문(foreach문)
+        for(int c : arr1){  // ★ c에 arr1의 값을 복사 arr1 속성 값이 int 타입이라 c를 int 타입으로 선언
+            System.out.println(c);
+        }
 
 //        String 타입으로 "aaa", "bbb", "ccc", "ddd", "fff를 담고 foreach문을 통해 출력해보자
+        String[] ch2 = {"aaa", "bbb", "ccc", "ddd", "fff"};
 
-//        String[] ch2 = {"aaa", "bbb", "ccc", "ddd", "fff"};
-//
-//        for(int i=0;i<ch2.length;i++){
-//            System.out.println(ch2[i]);
-//        }
-//
-//        for(String a : ch2){
-//            System.out.println(a);
-//        }
+//        for문 사용
+        for(int m=0;m<ch2.length;m++){
+            System.out.println(ch2[m]);
+        }
 
+//      enhanced for문 (foreach문)
+        for(String d : ch2){
+            System.out.println(d);
+        }
 
 //        함수형 코딩(자바8부터 바뀜) → 사본으로 작업
 
 //        2중(다중) 반복문
-//
 //        int num = 2;
 //        for(int i = 2;i<6;i++){
 //            System.out.println(i+"단 입니다.");

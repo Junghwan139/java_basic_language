@@ -1,7 +1,6 @@
 public class Stu02_operator {
     public static void main(String[] args) {
 
-//        << 공부 >>
 //        1. 기본 연산자
 //        1) 대입 연산자 : =
 //        2) 부효 연산자 : +, -

@@ -1,4 +1,4 @@
-public class Ct04_oftenValue {
+public class B_Ct04_oftenValue {
 
     public static void main(String[] args) {
 //        최빈값은 주어진 값 중에서 가장 자주 나오는 값을 의미합니다.

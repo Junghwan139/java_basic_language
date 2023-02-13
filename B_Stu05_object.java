@@ -1,7 +1,7 @@
 
 //클래스 외부에는 package와 import선언만 가능
 //클래스
-public class Stu05_object {
+public class B_Stu05_object {
     int csId;
 
 
@@ -13,7 +13,6 @@ public class Stu05_object {
 
     //메인함수
     public static void main(String[] args) {
-        //        << 공부 >>
 
 //        1. 객체지향
         System.out.println("1. 객체지향");

@@ -1,8 +1,6 @@
 public class Stu03_if {
     public static void main(String[] args) {
 
-//        <<공부>>
-
 //        1. 조건문
 //        1) if / if-else
         System.out.println("1) if / if-else");

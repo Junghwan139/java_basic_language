@@ -1,4 +1,4 @@
-public class B_Ct08_Splitpizza {
+public class A_Ct08_Splitpizza {
     public static void main(String[] args) {
 
 //        << 피자 나눠 먹기 (1) >>

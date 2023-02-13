@@ -13,7 +13,7 @@ public class Ct02_times {
 [1, 2, 100, -99, 1, 2, 3]	[2, 4, 200, -198, 2, 4, 6]
 
 */
-                int[] answer = {};
+                int[] answer = {1,2,3,4};
                 int leng = answer.length;
                 int i=0;
                 for (i=0;i<leng;i++){

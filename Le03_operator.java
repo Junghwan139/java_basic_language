@@ -1,4 +1,4 @@
-public class Le01_operator {
+public class Le03_operator {
     public static void main(String[] args) {
 //        산술연산자
 //        int num1 = 8, num2 = 3;

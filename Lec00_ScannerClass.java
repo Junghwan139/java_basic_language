@@ -7,6 +7,7 @@ public class Lec00_ScannerClass {
 
         //입력 받을 때 하위 2줄 copy
         Scanner sc = new Scanner(System.in);
+        System.out.println(sc);
         String name = sc.nextLine();
         System.out.print("당신의 이름은 "+name+"입니다");
 

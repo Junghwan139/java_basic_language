@@ -1,3 +1,5 @@
+package test;
+
 public class Ct02_times {
     public static void main(String[] args) {
 

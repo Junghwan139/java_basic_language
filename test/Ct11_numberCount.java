@@ -1,3 +1,5 @@
+package test;
+
 public class Ct11_numberCount {
     public static void main(String[] args) {
 

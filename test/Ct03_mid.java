@@ -1,3 +1,5 @@
+package test;
+
 public class Ct03_mid {
     public static void main(String[] args) {
 

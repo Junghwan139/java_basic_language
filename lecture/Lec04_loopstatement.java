@@ -1,3 +1,5 @@
+package lecture;
+
 public class Lec04_loopstatement {
     public static void main(String[] args) {
 

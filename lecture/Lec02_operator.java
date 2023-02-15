@@ -1,3 +1,5 @@
+package lecture;
+
 public class Lec02_operator {
     public static void main(String[] args) {
 //        1. 산술연산자

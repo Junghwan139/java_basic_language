@@ -1,3 +1,5 @@
+package test;
+
 public class Ct08_dot {
     public static void main(String[] args) {
 

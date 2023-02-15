@@ -1,3 +1,5 @@
+package test;
+
 public class A_Ct08_Splitpizza {
     public static void main(String[] args) {
 

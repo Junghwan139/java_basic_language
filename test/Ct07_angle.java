@@ -1,3 +1,5 @@
+package test;
+
 public class Ct07_angle {
     public static void main(String[] args) {
 

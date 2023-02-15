@@ -1,7 +1,8 @@
+package study;
 
 //클래스 외부에는 package와 import선언만 가능
 //클래스
-public class A_Stu05_object {
+public class Stu05_object {
 
 
 
@@ -59,9 +60,16 @@ public class A_Stu05_object {
 //             클래스를 참조(★클래스 생성이라 표현)해야 함
 //             → 생성 코드 : 클래스형 변수이름 = new 생성자;
 
-        A_Stu05_object aoj = new A_Stu05_object( );  // 클래스 생성
+//        4) 클래스(멤버 변수, 메소드) & 인스턴스(참조 변수, 참조 값, 힙메모리)
+
+        Stu05_object aoj = new Stu05_object( );  // 클래스 생성
         aoj.studentName = "안연수";
-        System.out.println(aoj.studentName);
+        System.out.println(aoj);
+        
+        
+//        5) 생성자
+
+
 
     } //메인함수
 

@@ -1,3 +1,5 @@
+package test;
+
 public class Ct06_evenSum {
     public static void main(String[] args) {
 

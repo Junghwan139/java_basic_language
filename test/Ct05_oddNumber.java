@@ -1,3 +1,5 @@
+package test;
+
 public class Ct05_oddNumber {
     public static void main(String[] args) {
 

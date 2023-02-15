@@ -1,3 +1,5 @@
+package test;
+
 public class A_Ct04_oftenValue {
 
     public static void main(String[] args) {

@@ -1,3 +1,5 @@
+package test;
+
 public class Ct10_reverse {
     public static void main(String[] args) {
 

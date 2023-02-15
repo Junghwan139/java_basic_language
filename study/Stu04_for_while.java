@@ -1,3 +1,5 @@
+package study;
+
 public class Stu04_for_while {
     public static void main(String[] args) {
 

@@ -2,7 +2,7 @@ package study;
 
 //클래스 외부에는 package와 import선언만 가능
 //클래스
-public class Stu05_object {
+public class Stu05_object_1 {
 
 
     //add 함수
@@ -21,6 +21,7 @@ public class Stu05_object {
         }
         System.out.println(total);
         return total;
+
     }
 
 
@@ -62,13 +63,16 @@ public class Stu05_object {
 
 //        4) 클래스(멤버 변수, 메소드) & 인스턴스(참조 변수, 참조 값, 힙메모리)
 
-        Stu05_object aoj = new Stu05_object( );  // 클래스 생성
-        aoj.studentName = "안연수";
-        System.out.println(aoj);
+        Stu05_object_1 aoj = new Stu05_object_1("안연수");  // 클래스 생성
+        System.out.println(aoj.studentName);
         
         
 //        5) 생성자
 
+
+//        6) 참조 자료형
+
+//        7) 정보 은닉(접근 제어자)
     } //메인함수
 
 
@@ -77,10 +81,10 @@ public class Stu05_object {
     float height;
     float weight;
     String studentName;
-    public Stu05_object(String sName){
+    public Stu05_object_1(String sName){
         studentName = sName;
     }
-    public Stu05_object(){}  // 디폴트 생성자
+    public Stu05_object_1(){}  // 디폴트 생성자
 
 
 }

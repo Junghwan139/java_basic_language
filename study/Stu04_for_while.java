@@ -102,5 +102,6 @@ public class Stu04_for_while {
         System.out.println("num : "+num3);
         System.out.println("sum : "+sum3);
 
+
     }
 }

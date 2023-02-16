@@ -5,14 +5,14 @@ package study;
 public class Stu05_object {
 
 
-
+    //add 함수
     public static int add(int n1, int n2) {
         int result = n1 + n2;
         return result;
-    } //add 함수
+    }
 
 
-
+    // getTenTotal 함수
     static int getTenTotal() {
         int i;
         int total = 0;
@@ -21,7 +21,7 @@ public class Stu05_object {
         }
         System.out.println(total);
         return total;
-    } // getTenTotal 함수
+    }
 
 
 
@@ -69,15 +69,18 @@ public class Stu05_object {
         
 //        5) 생성자
 
-
-
     } //메인함수
 
 
-
+    // 클래스 멤버변수
     int studentID;
+    float height;
+    float weight;
     String studentName;
-
+    public Stu05_object(String sName){
+        studentName = sName;
+    }
+    public Stu05_object(){}  // 디폴트 생성자
 
 
 }

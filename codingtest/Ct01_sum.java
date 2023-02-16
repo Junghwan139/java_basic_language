@@ -1,4 +1,4 @@
-package test;
+package codingtest;
 
 public class Ct01_sum {
     public static void main(String[] args) {

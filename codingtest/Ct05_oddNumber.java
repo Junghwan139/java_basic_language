@@ -1,4 +1,4 @@
-package test;
+package codingtest;
 
 public class Ct05_oddNumber {
     public static void main(String[] args) {

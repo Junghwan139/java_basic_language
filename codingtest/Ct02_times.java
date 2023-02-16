@@ -1,4 +1,4 @@
-package test;
+package codingtest;
 
 public class Ct02_times {
     public static void main(String[] args) {

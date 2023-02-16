@@ -1,4 +1,4 @@
-package test;
+package codingtest;
 
 public class Ct03_mid {
     public static void main(String[] args) {

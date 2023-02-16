@@ -1,4 +1,4 @@
-package test;
+package codingtest;
 
 public class Ct07_angle {
     public static void main(String[] args) {

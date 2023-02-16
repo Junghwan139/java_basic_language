@@ -1,4 +1,4 @@
-package test;
+package codingtest;
 
 public class A_Ct04_oftenValue {
 

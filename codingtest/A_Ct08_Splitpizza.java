@@ -1,4 +1,4 @@
-package test;
+package codingtest;
 
 public class A_Ct08_Splitpizza {
     public static void main(String[] args) {

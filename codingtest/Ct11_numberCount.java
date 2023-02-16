@@ -1,4 +1,4 @@
-package test;
+package codingtest;
 
 public class Ct11_numberCount {
     public static void main(String[] args) {

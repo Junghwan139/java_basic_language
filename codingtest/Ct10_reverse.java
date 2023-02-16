@@ -1,4 +1,4 @@
-package test;
+package codingtest;
 
 public class Ct10_reverse {
     public static void main(String[] args) {

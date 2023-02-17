@@ -1,9 +1,9 @@
-package lecture;
+package classforjava;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
 
-public class Lec01_values {
+public class cla01_values {
     public static void main(String[] args) {
 
         //        1. 변수란 무엇일까.

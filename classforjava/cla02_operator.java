@@ -1,6 +1,6 @@
-package lecture;
+package classforjava;
 
-public class Lec02_operator {
+public class cla02_operator {
     public static void main(String[] args) {
 //        1. 산술연산자
 //        int num1 = 8, num2 = 3;

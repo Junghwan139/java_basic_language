@@ -1,6 +1,6 @@
-package lecture;
+package classforjava;
 
-public class Lec04_loopstatement {
+public class cla04_loopstatement {
     public static void main(String[] args) {
 
 

@@ -32,7 +32,9 @@ public class Stu05_object_1 {
         System.out.println("1. 객체지향");
 
 //        1) class : 객체
+//           - 한개의 파일 안에 여러개의 클래스 생성 가능. 단, public 은 1개만 가능
 //           - 멤버 변수, 메서드로 구성됨. 변수 : 구성 항목, 메서드 : 행동
+
         System.out.println("1) class");
 
 //        2) package (가장 큰 단위)

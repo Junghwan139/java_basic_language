@@ -39,7 +39,7 @@ public class Ct15_yaksoogoohagi {
             }
         }
 
-        Solution sl = new Solution();
+        Ct15_other sl = new Ct15_other();
         System.out.println(Arrays.toString(sl.solution2(24)));;
 
 
@@ -49,7 +49,7 @@ public class Ct15_yaksoogoohagi {
 
 // 다른 사람의 풀이
 
-class Solution {
+class Ct15_other {
     int[] solution2(int n) {
         List<Integer> answer = new ArrayList<>();
         for (int i = 1; i <= n; i++) {

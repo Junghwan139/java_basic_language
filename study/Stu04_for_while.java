@@ -3,8 +3,6 @@ package study;
 public class Stu04_for_while {
     public static void main(String[] args) {
 
-//        << 공부 >>
-
 //        1. 반복문
 //        1) while문 : while(조건식) { 수행문; }
         System.out.println("1) while");
@@ -88,6 +86,9 @@ public class Stu04_for_while {
         System.out.println("---------------------------------------------------------------------");
 
 //        4) break문 : 반복문 빠져 나오기
+//           - break를 만나면 default는 가장 가까운 반복문을 빠져나옴.
+//           - 가장 가까운 반복문이 아닌 다른 반복문을 빠져나오기 위해서는 반복문에
+//             라벨링을 해주어야 함. (ex) label : for~
         System.out.println("4) break");
         System.out.println("(예제 1) ");
 

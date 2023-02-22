@@ -1,8 +1,6 @@
 package classforjava;
 
-import java.util.Arrays;
-
-public class cla06_array2 {
+public class Cla06_array2 {
 
     public static void main(String[] args) {
 

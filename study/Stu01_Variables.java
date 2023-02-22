@@ -6,8 +6,7 @@ import java.util.ArrayList;
 public class Stu01_Variables {
     public static void main(String[] args) {
 
-//        1. 변수란 무엇일까.
-//        변수 : 값을 저장하기 위한 공간
+//        1. 변수 : 값을 저장하기 위한 공간
         int a = 3;
 //        int 라는(자료형 / 명) 뜻은 a의 값이 정수값이 되어야 한다는 선언
 //        a=3의 의미는 오른쪽의 3의 값을 왼쪽의 변수 a에 대입한다는 의미

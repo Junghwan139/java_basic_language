@@ -2,7 +2,7 @@ package classforjava;
 
 import java.util.Scanner;
 
-public class cla03_ifstatement {
+public class Cla03_ifstatement {
     public static void main(String[] args) {
 
 //        현재, 나한테 13000원이 있다.

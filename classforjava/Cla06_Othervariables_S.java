@@ -2,7 +2,7 @@ package classforjava;
 
 import java.util.*;
 
-public class cla06_Othervariables_S {
+public class Cla06_Othervariables_S {
     public static void main(String[] args) {
 
 

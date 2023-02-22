@@ -2,7 +2,7 @@ package classforjava;
 
 import java.util.Scanner;
 
-public class cla00_ScannerClass {
+public class Cla00_ScannerClass {
     public static void main(String[] args) {
         System.out.println(12000  );
         System.out.print("이름을 입력하세요 : ");

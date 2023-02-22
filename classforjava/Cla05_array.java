@@ -2,7 +2,7 @@ package classforjava;
 
 import java.util.Arrays;
 
-public class cla05_array {
+public class Cla05_array {
 
     public static void main(String[] args) {
 

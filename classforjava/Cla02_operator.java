@@ -1,6 +1,6 @@
 package classforjava;
 
-public class cla02_operator {
+public class Cla02_operator {
     public static void main(String[] args) {
 //        1. 산술연산자
 //        int num1 = 8, num2 = 3;

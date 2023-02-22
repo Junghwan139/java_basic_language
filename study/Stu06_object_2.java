@@ -15,6 +15,11 @@ public class Stu06_object_2 {
         System.out.println(stu1.studentName);
 
     }
+
+
+
+
+
 }
 
 // 학생 이름을 반환하고 부여하는 메서드 포함 클래스

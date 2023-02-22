@@ -2,7 +2,7 @@ package classforjava;
 
 import java.util.Arrays;
 
-public class cla06_array2_S {
+public class Cla06_array2_S {
     public static void main(String[] args) {
 
 //        - (복습) 최대공약수

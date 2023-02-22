@@ -1,9 +1,6 @@
 package classforjava;
 
-import java.util.ArrayList;
-import java.util.List;
-
-public class cla06_OtherVariables {
+public class Cla06_OtherVariables {
 
     public static void main(String[] args) {
 /*

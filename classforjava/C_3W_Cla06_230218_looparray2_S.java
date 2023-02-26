@@ -2,7 +2,7 @@ package classforjava;
 
 import java.util.Arrays;
 
-public class Cla06_230218_looparray2_C {
+public class C_3W_Cla06_230218_looparray2_S {
     public static void main(String[] args) {
 
 //        - (복습) 최대공약수

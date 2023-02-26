@@ -1,8 +1,8 @@
-package classforjava;
+package study;
 
 import java.util.Arrays;
 
-public class ChangeType {
+public class A_ChangeType {
     public static void main(String[] args) {
 
 //        1. String to char

@@ -1,4 +1,4 @@
-package classforjava;
+package classforjava.typing;
 
 public class Cla06_230219_OtherVariables {
 
@@ -99,17 +99,6 @@ public class Cla06_230219_OtherVariables {
 //        숫자를 제외한 문자만 새로운 문자열에 담아보자.
         String st6 = st5.replaceAll("[^a-z]","");  // 제외^, [a-z], [0-9]
         System.out.println(st6);
-
-
-
-
-
-
-
-
-
-
-
 
 
 

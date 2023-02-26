@@ -1,4 +1,4 @@
-package classforjava;
+package classforjava.typing;
 
 public class Cla06_230218_looparray2 {
 

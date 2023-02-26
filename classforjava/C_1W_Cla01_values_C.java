@@ -3,7 +3,7 @@ package classforjava;
 import java.math.BigDecimal;
 import java.util.ArrayList;
 
-public class Cla01_values_C {
+public class C_1W_Cla01_values_C {
     public static void main(String[] args) {
 
         //        1. 변수란 무엇일까.

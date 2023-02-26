@@ -1,6 +1,6 @@
 package classforjava;
 
-public class Cla04_loopstatement_C {
+public class C_2W_Cla04_loopstatement_C {
     public static void main(String[] args) {
 
 

@@ -1,8 +1,9 @@
 package codingtest;
 
-import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 
-public class A_Ct004_oftenValue {
+public class Ct004_oftenValue {
 
     public static void main(String[] args) {
 
@@ -20,28 +21,40 @@ public class A_Ct004_oftenValue {
                 입출력 예 #3
                 [1]에는 1만 있으므로 최빈값은 1입니다.  */
 
-        int[] values = {1,1,1, 2, 3, 3, 3, 4};
-        Arrays.sort(values);
-        int count = 0;
-        int maxcount = 0;
-        int maxnum = 0;
-        for(int i = 0;i<values.length;i++){
-            if(values[i]==values[i+1]){
-                maxnum = values[i+1];
-                count++;
-                maxcount = count;
+        int[] array = {0,0,0,1};
+        int answer = 0;
+
+        Map<Integer,Integer> mp = new HashMap<>();
+        for (int a : array){
+            if(mp.containsKey(a)){
+                mp.put(a,mp.get(a)+1);
             }else{
-                count = 0;
+                mp.put(a,1);
+            }
+        }
+        System.out.println(mp);
+
+        int maxkey = -1;
+        int maxvalue = -1;
+        int samekey = -1;
+
+        for(int a : mp.keySet()){
+            if(mp.get(a)>maxvalue){
+                maxvalue = mp.get(a);
+                maxkey =a;
+            }else if(maxvalue==mp.get(a)){
+                samekey = a;
 
             }
-
         }
 
+        if(mp.get(maxkey)==mp.get(samekey)){
+            answer = -1;
+        }else{
+            answer = maxkey;
+        }
 
-//        1 - 1개, 2 - 1개, 3 - 3개, 4 -1개
-
-
-
+        System.out.println(answer);
 
         } // 메인 함수
     } // 클래스

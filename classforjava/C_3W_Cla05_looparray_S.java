@@ -2,7 +2,7 @@ package classforjava;
 
 import java.util.Arrays;
 
-public class Cla05_looparray_C {
+public class C_3W_Cla05_looparray_S {
 
     public static void main(String[] args) {
 

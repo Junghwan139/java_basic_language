@@ -1,5 +1,8 @@
 package codingtest;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class A_Ct034_passarray {
 
     public static void main(String[] args) {
@@ -22,9 +25,51 @@ public class A_Ct034_passarray {
 
         */
 
-        String A = "hello";
-        String B = "ohell";
-        
+        String A = "abc";
+        String B = "abc";
+        int answer = 0;
+
+
+        String[] a_str = A.split("");
+        String[] b_str = B.split("");
+
+        String a_join = "";
+        String b_join = "";
+
+        String temp = "";
+
+
+        for(int i =0; i<A.length()-1;i++){
+
+            a_join = String.join("", a_str);
+           b_join = String.join("", b_str);;
+
+           if(a_join != b_join){
+               if(i!=A.length()-2){
+
+                   for(int j =a_str.length-1;j>1;j--){
+                       temp = a_str[j];
+                       a_str[j] = a_str[j-1];
+                       a_str[j-1]=temp;
+                   }
+               }else{
+                   answer = -1;
+               }
+
+            } else{
+               answer = i;
+                break;
+            }
+
+
+
+        }
+
+        System.out.println(answer);
+
+
+
+
 
 
 

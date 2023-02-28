@@ -68,13 +68,6 @@ public class A_Ct034_passarray {
         System.out.println(answer);
 
 
-
-
-
-
-
-
-
     }
 
 }

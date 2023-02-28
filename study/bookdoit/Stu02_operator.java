@@ -1,4 +1,4 @@
-package study;
+package study.bookdoit;
 
 public class Stu02_operator {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package study;
+package study.bookdoit;
 
 public class Stu03_if {
     public static void main(String[] args) {

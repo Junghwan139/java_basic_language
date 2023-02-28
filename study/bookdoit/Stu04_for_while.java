@@ -1,4 +1,4 @@
-package study;
+package study.bookdoit;
 
 public class Stu04_for_while {
     public static void main(String[] args) {

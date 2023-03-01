@@ -1,4 +1,4 @@
-package study.webseach;
+package study.seach;
 
 import java.util.Arrays;
 

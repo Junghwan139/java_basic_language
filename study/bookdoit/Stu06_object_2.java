@@ -41,10 +41,28 @@ public class Stu06_object_2 {
 
 
 
+    }
+
+
+    public static int serialNum = 1000;
+    public int studentID;
+    public int grade;
+    public String studentNames;
+    public String address;
+
+    public String getStudentName(){
+        return studentNames;
+    }
+
+    public void setStudentNames(String name){
+        studentNames = name;
 
     }
 
+
 }
+
+
 
 class BirthDay {
     int day;

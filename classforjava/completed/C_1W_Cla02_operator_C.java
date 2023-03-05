@@ -1,4 +1,4 @@
-package classforjava;
+package classforjava.completed;
 
 public class C_1W_Cla02_operator_C {
     public static void main(String[] args) {

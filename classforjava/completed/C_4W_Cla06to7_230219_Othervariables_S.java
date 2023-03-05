@@ -1,4 +1,4 @@
-package classforjava;
+package classforjava.completed;
 
 import java.util.*;
 
@@ -99,17 +99,35 @@ public class C_4W_Cla06to7_230219_Othervariables_S {
 
 //        4. Map : key와 value로 이루어져 있는 자료형
 //         1) 선언 : key, value타입을 반드시 선언
-        Map<String,Integer> mp = new HashMap<>();
+        Map<String,Integer> mp = new HashMap<>(); //HashMap순서x, TreeMap 순서o
         System.out.println(mp);
 //         2) 특징 : key는 중복 불가(중복추가 시 values 덮어쓰기). values는 중복가능.(따라서 valuse로 꺼낼 수 없음)
 //                  map은 자료 검색이 빠르다는 장점이 있음
 //         3) 메소드 : 값꺼내기 .get(key), 크기 .size(), 추가 .put(key, 값), 제거 .remove(key), 포함여부 containsKey(key)
-//                    ★ getOrDefault 공부할 것
+//                   , getOrDefault(키값, 디폴트값) → key값이 있는 경우 get(키), 없으면 Default 지정값
         mp.put("a",+1);
         mp.put("a",mp.get("a")+1);
         mp.put("a",mp.get("a")+1);
         mp.put("a",mp.get("a")+1);
         System.out.println(mp);
+
+//        *) Collection Framework 출력방식
+//          ① for문
+//          ② iterator (Spring에서 자주 사용)
+
+        Map<String, String > mp1 = new HashMap<>();
+        mp1.put("a","b");
+        mp1.put("c","d");
+        Iterator<String> iter = mp1.keySet().iterator();
+        System.out.println(iter.next());
+
+
+
+
+
+
+
+
 
 
 

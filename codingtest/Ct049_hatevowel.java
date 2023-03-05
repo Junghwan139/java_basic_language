@@ -30,8 +30,8 @@ public class Ct049_hatevowel {
         lst.add("o");
         lst.add("u");
 
-        for(String a : lst){
-            my_string = my_string.replaceAll(a,"");
+        for (String a : lst) {
+            my_string = my_string.replaceAll(a, "");
         }
     }
 }

@@ -1,4 +1,4 @@
-package classforjava;
+package classforjava.completed;
 
 public class C_2W_Cla04_loopstatement_C {
     public static void main(String[] args) {

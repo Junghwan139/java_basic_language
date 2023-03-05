@@ -1,4 +1,4 @@
-package classforjava;
+package classforjava.completed;
 
 import java.util.Scanner;
 

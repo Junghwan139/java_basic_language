@@ -23,18 +23,17 @@ public class Ct035_RockPaperScissor {
         */
 
         String rsp = "205";
-        String answer ="";
-        Map<String,String> mp = new HashMap<>();
-        mp.put("2","0");
-        mp.put("5","2");
-        mp.put("0","5");
+        String answer = "";
+        Map<String, String> mp = new HashMap<>();
+        mp.put("2", "0");
+        mp.put("5", "2");
+        mp.put("0", "5");
         String[] rep_arr = rsp.split("");
-        for(String a : rep_arr){
+        for (String a : rep_arr) {
             answer += mp.get(a);
         }
 
         System.out.println(answer);
-
 
 
     }

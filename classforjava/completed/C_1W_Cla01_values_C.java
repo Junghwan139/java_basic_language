@@ -1,4 +1,4 @@
-package classforjava;
+package classforjava.completed;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;

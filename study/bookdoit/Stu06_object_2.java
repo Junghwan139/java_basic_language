@@ -35,6 +35,10 @@ public class Stu06_object_2 {
         subwayGreen.showInfo();
 
 //        3) static 변수 : 변수를 여러 클래스에서 공통으로 사용하려면?
+//          (1) static 변수, 정적 변수, 클래스 변수
+//          (2) 클래스 메서드
+
+
 
 
 
@@ -46,8 +50,8 @@ public class Stu06_object_2 {
 
     public static int serialNum = 1000;
     public int studentID;
-    public int grade;
     public String studentNames;
+    public int grade;
     public String address;
 
     public String getStudentName(){

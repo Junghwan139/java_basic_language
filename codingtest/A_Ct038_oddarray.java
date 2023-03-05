@@ -30,12 +30,13 @@ public class A_Ct038_oddarray {
         int[] numlist = {10000,20,36,47,40,6,10,7000};
         int n = 30;
         int[] answer = new int[numlist.length];
-        Map<Integer,Integer> mp = new HashMap<>();
-        List<Integer> lst = new ArrayList<>();
 
-        for(int i = 0;i<numlist.length;i++){
-            mp.put(numlist[i],Math.abs(n-numlist[i]));
+        Map<Integer,Integer> mp = new HashMap<>();
+
+        for(int a : numlist){
+            mp.put(a,Math.abs(n-a));
         }
+
         System.out.println(mp);
 
 

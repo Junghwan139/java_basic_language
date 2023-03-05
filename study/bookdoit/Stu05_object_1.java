@@ -89,8 +89,6 @@ public class Stu05_object_1 {
 //        7) 정보 은닉(접근 제어자)
 
 
-
-
     } //메인함수
 
 

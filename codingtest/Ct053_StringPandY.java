@@ -1,9 +1,6 @@
 package codingtest;
 
-import java.util.HashMap;
-import java.util.Map;
-
-public class A_Ct053_StringPandY {
+public class Ct053_StringPandY {
 
     public static void main(String[] args) {
 
@@ -28,26 +25,40 @@ public class A_Ct053_StringPandY {
 
 */
 
-        String s = "pPoooyY";
+        String s = "pyy";
         boolean answer = true;
 
+        String[] s_arr = s.split("");
 
-        Map<String, Integer> mp = new HashMap<>();
-        mp.put("p",1);
-        mp.put("P",1);
-        mp.put("y",1);
-        mp.put("Y",1);
+        int p_count = 0;
+        int y_count = 0;
 
+        for(String a : s_arr){
+            if(a.equals("p") || a.equals("P")){
+                p_count++;
+            } else if(a.equals("y") || a.equals("Y")){
+                y_count++;
+            }
 
+        }
 
+        if(p_count ==y_count || (p_count==0&&y_count==0)){
+            answer = true;
+        }else{
+            answer = false;
+        }
 
-
-
-
-
-
-
+        System.out.println(answer);
 
     }
 
+}
+
+
+class Ct053_others {
+    boolean solution(String s) {
+        s = s.toUpperCase();
+
+        return s.chars().filter( e -> 'P'== e).count() == s.chars().filter( e -> 'Y'== e).count();
+    }
 }

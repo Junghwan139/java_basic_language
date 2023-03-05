@@ -32,9 +32,7 @@ public interface A_Ct054_antarmy {
         int cmin = 0;
 
         for(int i =1; i<max+1;i++){
-
             if(hp%i==0 && 5%i ==0 && 3%i==0){
-
 
             }
 

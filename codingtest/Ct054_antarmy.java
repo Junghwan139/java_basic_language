@@ -1,6 +1,6 @@
 package codingtest;
 
-public interface A_Ct054_antarmy {
+public interface Ct054_antarmy {
 
     public static void main(String[] args) {
 
@@ -25,18 +25,11 @@ public interface A_Ct054_antarmy {
 
 */
 
-        int hp = 23;
+        int hp = 999;
         int answer = 0;
-        int max = hp > 5 ? hp : 5;
-        int cmax = 0;
-        int cmin = 0;
 
-        for(int i =1; i<max+1;i++){
-            if(hp%i==0 && 5%i ==0 && 3%i==0){
-
-            }
-
-        }
+        answer = hp/5+(hp%5)/3+(hp%5%3);
+        System.out.println(answer);
 
 
 

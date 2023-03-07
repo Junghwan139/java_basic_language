@@ -21,12 +21,34 @@ public class A_Ct065_sosufind {
         10	4
         5	3
 */
+        // 1000000
 
         int n = 10;
         int answer = 0;
 
+        int k = 100;
+        Map<Integer, Integer> mp = new HashMap<>();
+        int count = 0;
+        for(int i =1;i<=k;i++){
+            count=0;
+            for(int j = 1;j<=i;j++){
+                if(i%j==0){
+                    count++;
+                }
+                if(count>=3){
+                    break;
+                }
+            }
+            mp.put(i,count);
+        }
+
+        System.out.println(mp);
+
+
+
 
 /*
+
 
         int count = 0;
         for (int i = 1; i <= n; i++) {
@@ -42,40 +64,52 @@ public class A_Ct065_sosufind {
             if (count == 2) {
                 answer++;
             }
+
             count = 0;
 
+
         }
+
 
 */
 
-        Map<Integer,Integer> mp = new HashMap<>();
 
-        for(int i = 2; i<=n;i++){
 
-            mp.put(i,0);
+/*
+
+        Map<Integer, Integer> mp = new HashMap<>();
+
+        for (int i = 2; i <= n; i++) {
+
+            mp.put(i, 0);
         }
-        System.out.println(mp);
 
         int count = 0;
-        for(int a : mp.keySet()){
-           for(int i = 1;i<=a;i++){
-               if(a%i==0){
-                   count++;
-               }
-               if(count==2){
-                   mp.put(a,1);
-               }
-           }
+        for (int a : mp.keySet()) {
+            for (int i = 1; i <= a; i++) {
+                if (a % i == 0) {
+                    count++;
+                    if(count>=3){
+                        break;
+                    }
+                }
+
+            }
+            if (count == 2) {
+                mp.put(a, 1);
+            }
+            count = 0;
         }
 
-        System.out.println(mp);
-
-
+        for (int a : mp.keySet()) {
+            if (mp.get(a) == 1) {
+                answer += mp.get(a);
+            }
+        }
 
         System.out.println(answer);
 
-
-
+*/
     }
 
 }

@@ -1,8 +1,8 @@
-package temp;
+package codingtest;
 
 import java.util.Scanner;
 
-public class Ct072_makingstar {
+public class Ct073_makingstar {
 
     public static void main(String[] args) {
 

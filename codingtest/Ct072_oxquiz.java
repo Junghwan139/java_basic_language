@@ -1,8 +1,8 @@
-package temp;
+package codingtest;
 
 import java.util.Arrays;
 
-public class Ct071 {
+public class Ct072_oxquiz {
 
     public static void main(String[] args) {
 

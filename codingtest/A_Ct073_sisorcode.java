@@ -1,4 +1,4 @@
-package temp;
+package codingtest;
 
 public class A_Ct073_sisorcode {
 

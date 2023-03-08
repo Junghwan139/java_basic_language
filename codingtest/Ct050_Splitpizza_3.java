@@ -1,6 +1,6 @@
 package codingtest;
 
-public class A_Ct050_Splitpizza_3 {
+public class Ct050_Splitpizza_3 {
     public static void main(String[] args) {
 
 //        << 피자 나눠 먹기(3) >>
@@ -32,5 +32,21 @@ public class A_Ct050_Splitpizza_3 {
 
 
 
+    }
+}
+
+class Ct050_others {
+    public int solution(int slice, int n) {
+        int answer = 0;
+
+        //Ct050
+
+        if(n%slice==0){
+            answer = n/slice;
+        }else{
+            answer  = n/slice+1;
+        }
+
+        return answer;
     }
 }

@@ -23,6 +23,13 @@ public class Doit_07_Array {
         }
         System.out.println(Arrays.toString(alphabets));
 
+//        5) 객체 배열 사용하기
+
+//        Book[] library = new Book[5] → Book 클래스형으로 객체 배열 생성
+
+//        6) 배열 복사하기
+//        → 메서드 : System.arraycopy(src, srcPos, dest, destPos, length)
+
         
 
 

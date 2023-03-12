@@ -1,8 +1,8 @@
-package study.bookdoit;
+package study.book;
 
 import java.util.Arrays;
 
-public class Stu07_Array {
+public class Doit_07_Array {
     public static void main(String[] args) {
 
 

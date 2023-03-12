@@ -1,8 +1,8 @@
-package study.bookdoit;
+package study.book;
 
 //클래스 외부에는 package와 import선언만 가능
 //클래스
-public class Stu05_object_1 {
+public class Doit_05_object_1 {
 
     // 클래스 멤버변수
     int studentID;
@@ -67,7 +67,7 @@ public class Stu05_object_1 {
         int num2 = 20;
 
         // class 멤버 변수, 함수 사용 할때는 클래스 생성
-        Stu05_object_1 aoj = new Stu05_object_1("안연수");  // 클래스 생성
+        Doit_05_object_1 aoj = new Doit_05_object_1("안연수");  // 클래스 생성
         System.out.println(aoj.studentName);
 
 
@@ -94,12 +94,12 @@ public class Stu05_object_1 {
 
 
     // 생성자(작성자가 만든)
-    public Stu05_object_1(String sName){
+    public Doit_05_object_1(String sName){
         studentName = sName;
     }
 
     // 디폴트 생성자
-    public Stu05_object_1(){}
+    public Doit_05_object_1(){}
     
 
 }

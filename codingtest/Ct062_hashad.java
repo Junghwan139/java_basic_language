@@ -1,9 +1,5 @@
 package codingtest;
 
-import study.bookdoit.Stu06_object_2;
-
-import java.util.Arrays;
-
 public class Ct062_hashad {
     public static void main(String[] args) {
 

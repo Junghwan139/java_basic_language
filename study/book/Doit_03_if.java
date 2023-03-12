@@ -1,6 +1,6 @@
-package study.bookdoit;
+package study.book;
 
-public class Stu03_if {
+public class Doit_03_if {
     public static void main(String[] args) {
 
 //        1. 조건문

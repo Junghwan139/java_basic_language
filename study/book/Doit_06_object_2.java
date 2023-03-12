@@ -1,6 +1,6 @@
-package study.bookdoit;
+package study.book;
 
-public class Stu06_object_2 {
+public class Doit_06_object_2 {
     public static void main(String[] args) {
 
 //        1. 클래스와 객체(2)

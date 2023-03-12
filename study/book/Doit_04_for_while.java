@@ -1,6 +1,6 @@
-package study.bookdoit;
+package study.book;
 
-public class Stu04_for_while {
+public class Doit_04_for_while {
     public static void main(String[] args) {
 
 //        1. 반복문

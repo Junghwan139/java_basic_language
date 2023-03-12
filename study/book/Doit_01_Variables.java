@@ -1,9 +1,9 @@
-package study.bookdoit;
+package study.book;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
 
-public class Stu01_Variables {
+public class Doit_01_Variables {
     public static void main(String[] args) {
 
 //        1. 변수 : 값을 저장하기 위한 공간

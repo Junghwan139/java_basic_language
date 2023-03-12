@@ -1,6 +1,6 @@
-package study.bookdoit;
+package study.book;
 
-public class Stu02_operator {
+public class Doit_02_operator {
     public static void main(String[] args) {
 
 //        1. 기본 연산자

@@ -1,6 +1,6 @@
-package study.bookdoit;
+package study.book;
 
-public class Stu11_Object {
+public class Doit_11_Object {
 
     public static void main(String[] args) {
 

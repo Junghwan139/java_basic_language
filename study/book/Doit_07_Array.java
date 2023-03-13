@@ -28,8 +28,18 @@ public class Doit_07_Array {
 //        Book[] library = new Book[5] → Book 클래스형으로 객체 배열 생성
 
 //        6) 배열 복사하기
-//        → 메서드 : System.arraycopy(src, srcPos, dest, destPos, length)
+//        → ★ 메서드 : System.arraycopy(src, srcPos, dest, destPos, length)
 
+        int[] array1 = {10,20, 30, 40, 50};
+        int[] array2 = {1,2,3,4,5};
+
+        System.out.println(Arrays.toString(array2));
+        System.arraycopy(array1,0,array2,1,4);
+        System.out.println(Arrays.toString(array2));
+
+//        7) 향상된 for문과 배열
+//        2. 다차원 배열
+//        3. ArrayList 클래스 사용하기
         
 
 

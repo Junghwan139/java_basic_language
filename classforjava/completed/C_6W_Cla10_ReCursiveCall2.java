@@ -39,10 +39,11 @@ public class C_6W_Cla10_ReCursiveCall2 {
 
     public static void recur(int[] arr, int[] arr_temp,int a,int b){
 
-        if(a==arr_temp.length){
-            System.out.println(Arrays.toString(arr_temp));
-            return;
-        }
+            if(a==arr_temp.length){
+                    System.out.println(Arrays.toString(arr_temp));
+                return;
+            }
+
 
         for(int i = b;i<arr.length;i++){
             arr_temp[a] = arr[i];
@@ -50,6 +51,8 @@ public class C_6W_Cla10_ReCursiveCall2 {
              recur(arr,arr_temp,a+1,i+1);
 
         }
+
+
 
     }
 

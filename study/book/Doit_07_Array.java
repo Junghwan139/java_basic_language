@@ -35,8 +35,5 @@ public class Doit_07_Array {
 
 
 
-
-
-
     }
 }

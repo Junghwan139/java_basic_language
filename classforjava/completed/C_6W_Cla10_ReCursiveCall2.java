@@ -13,6 +13,7 @@ public class C_6W_Cla10_ReCursiveCall2 {
         int[] arr_temp = new int[3];
 
 
+/*
 
 //        << for문 사용 >>
         for(int i = 0;i<arr.length;i++){
@@ -25,13 +26,10 @@ public class C_6W_Cla10_ReCursiveCall2 {
                 }
             }
         }
-
-
+*/
 
 
         recur(arr,arr_temp,0,0);
-
-
 
     }
 

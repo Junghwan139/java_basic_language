@@ -19,7 +19,6 @@ number	limit	power	result
 
 */
 
-
         int number = 10;
         int limit = 3;
         int power = 2;

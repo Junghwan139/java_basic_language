@@ -29,7 +29,14 @@ public class C_6W_Cla10_ReCursiveCall2 {
 */
 
 
+<<<<<<< HEAD
         recur(arr,arr_temp,0,0);
+=======
+        for(int i =0;i<arr_temp.length;i++){
+            recur(arr,new int[i],0,0);
+        }
+
+>>>>>>> f6bf89dfd4cf6eedd30bf21d9124e21cb59be2f6
 
     }
 

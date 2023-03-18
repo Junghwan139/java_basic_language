@@ -1,4 +1,4 @@
-package temp;
+package a_temp;
 
 public class Study_Array {
 

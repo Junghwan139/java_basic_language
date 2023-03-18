@@ -1,6 +1,6 @@
 package codingtest;
 
-public interface Ct054_antarmy {
+public class Ct054_antarmy {
 
     public static void main(String[] args) {
 
@@ -30,6 +30,7 @@ public interface Ct054_antarmy {
 
         answer = hp/5+(hp%5)/3+(hp%5%3);
         System.out.println(answer);
+
 
 
 

@@ -3,7 +3,7 @@ package classforjava.typing.AbstractInterface;
 //final을 클래스 앞에 붙이면 상속불가한 클래스가 된다.
 public class Animal {
 
-    // protected는 상속관게에서만 접근가능한 변수가 되도록 하는 것
+    // protected는 상속관계 또는 패키지내에서만 접근가능한 변수가 되도록 하는 것
     private String name;
     private int age;
 

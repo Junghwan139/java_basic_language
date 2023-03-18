@@ -1,5 +1,8 @@
 package classforjava.typing.AbstractInterface;
 
+import classforjava.completed.C_7W.D_Animal;
+import classforjava.completed.C_7W.E_Cat;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -9,7 +12,7 @@ public class Abstractmain {
 
 
         //상속에서의 super() 및 상속 범위
-        Cat ct1 = new Cat("야옹이1",20);
+        Cat ct1 = new Cat("야옹이1-1",20);
         System.out.println(ct1.getName());
 
         Animal an1 = new Animal("야옹이2",20);
@@ -48,9 +51,6 @@ public class Abstractmain {
 
         final String s1 = "abc";
         // s1 = "abc2"; // 상수를 재정의 하는 것이 불가
-
-
-
 
 
 

@@ -18,7 +18,7 @@ public class C_5W_Cla08to9 {
          (3) 함수 : return(① 인수반환 ② 함수 종료(break)),
                    this.(매개변수와 클래스내 사용한 변수를 구분하기 위하여
 
-        3. 접근제어자(public..)
+        3. 접근제어자(public..) → ★★ class를 new해서 객체변수를 만들고 그 객체변수로 해당 변수에 접근할 때의 접근 권한을 관리 
          (1) 역할 : 접근권한을 설정
          (2) 종류 : public, private, default, protected
          (3) private 설정시 외부 클래스에서는 해당 변수에 접근할 수가 없으므로, 함수(getter, setter)를 사용하여

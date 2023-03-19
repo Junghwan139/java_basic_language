@@ -1,4 +1,4 @@
-package classforjava.typing.AbstractInterface.testpackage;
+package classforjava.typing.Cla11_AbstractInterface.testpackage;
 
 // 프로그래밍에서 일반적으로 * 의미하는 것은 all을 의미한다.
 // package하위 파일 단위의 *은 가능하나, 하위 패키지까지 모두 가져오는 *은 불가능하다.

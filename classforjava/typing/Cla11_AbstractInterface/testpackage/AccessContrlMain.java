@@ -1,6 +1,6 @@
-package classforjava.typing.AbstractInterface.testpackage;
+package classforjava.typing.Cla11_AbstractInterface.testpackage;
 
-import classforjava.typing.AbstractInterface.AccessControl;
+import classforjava.typing.Cla11_AbstractInterface.AccessControl;
 
 public class AccessContrlMain extends AccessControl {
 

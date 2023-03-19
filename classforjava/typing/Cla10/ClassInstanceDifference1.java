@@ -1,4 +1,4 @@
-package classforjava.typing;
+package classforjava.typing.Cla10;
 
 public class ClassInstanceDifference1 {
 //    static int total =0;

@@ -1,5 +1,7 @@
 package classforjava.typing;
 
+import classforjava.typing.Cla10.InstanceUserSample;
+
 public class Cla09_ClassIntro {
 
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package classforjava.typing.AbstractInterface;
+package classforjava.typing.Cla11_AbstractInterface;
 
 //final을 클래스 앞에 붙이면 상속불가한 클래스가 된다.
 public class Animal {

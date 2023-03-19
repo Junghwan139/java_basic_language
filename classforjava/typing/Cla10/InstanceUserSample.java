@@ -1,4 +1,4 @@
-package classforjava.typing;
+package classforjava.typing.Cla10;
 
 public class InstanceUserSample {
     //    변수는 private으로 접근제어를 하면서, public한 메서드를 통해서 값을 세팅하도록 한다.

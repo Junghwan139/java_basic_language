@@ -1,4 +1,4 @@
-package classforjava.typing.AbstractInterface;
+package classforjava.typing.Cla11_AbstractInterface;
 
 public interface AnimalInterface1 {
 

@@ -1,7 +1,4 @@
-package classforjava.typing.AbstractInterface;
-
-import classforjava.completed.C_7W.D_Animal;
-import classforjava.completed.C_7W.E_Cat;
+package classforjava.typing.Cla11_AbstractInterface;
 
 import java.util.ArrayList;
 import java.util.List;

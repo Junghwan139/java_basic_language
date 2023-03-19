@@ -1,4 +1,4 @@
-package classforjava.typing.AbstractInterface;
+package classforjava.typing.Cla11_AbstractInterface;
 
 // 자바에서 다중상속은 불가하다.
 public class Cat extends Animal {

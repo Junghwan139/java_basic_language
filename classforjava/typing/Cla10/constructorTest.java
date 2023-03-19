@@ -1,4 +1,4 @@
-package classforjava.typing;
+package classforjava.typing.Cla10;
 
 // 생성자(constructor)는 메서드 인데, 클래스의 이름을 가진 메서드
 // 생성자의 역할은 인스턴스변수를 초기화하는데 있다.

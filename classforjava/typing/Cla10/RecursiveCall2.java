@@ -1,4 +1,4 @@
-package classforjava.typing;
+package classforjava.typing.Cla10;
 
 import java.util.Arrays;
 

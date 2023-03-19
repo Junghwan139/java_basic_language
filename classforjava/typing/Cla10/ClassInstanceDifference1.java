@@ -31,6 +31,8 @@ public class ClassInstanceDifference1 {
         // static변수와의 메모리상의 차이점은 garbage컬렉터를 통해 인스턴스변수는 관리된다는 것.
         // garbage컬렉터란 jvm안에 내장된 불필요한 데이터를 자동삭제관리 해주는 기능이다.
         // this를 붙이는 이유는 매개변수명(input)과 구분을 짓기 위함이다.
+        
+        // 리스트에 객체를 넣고, Colletions.sort(Comparator) 객체정렬
 
 
 

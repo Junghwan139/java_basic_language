@@ -1,6 +1,6 @@
-package classforjava.completed.C_7W;
+package classforjava.completed.C_7W_1_extends;
 
-public class C_7W_main {
+public class C_7W_1_main {
 
     public static void main(String[] args) {
 

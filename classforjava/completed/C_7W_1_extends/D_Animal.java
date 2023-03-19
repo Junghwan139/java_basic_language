@@ -1,4 +1,4 @@
-package classforjava.completed.C_7W;
+package classforjava.completed.C_7W_1_extends;
 
 public class D_Animal {
 

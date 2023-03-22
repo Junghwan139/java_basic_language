@@ -31,13 +31,17 @@ s	return
         String answer = "";
 
         int i = 0;
-        for (String a : s.split(" ")) {
+        String[] b = s.split(" ");
 
+        for (String a : b) {
+
+            String s1 = String.valueOf(a.charAt(0)).toUpperCase();
             if (i < a.length() - 1) {
-                answer += String.valueOf(a.charAt(0)).toUpperCase() + a.substring(1, a.length()).toLowerCase() + " ";
+                answer += s1 + a.substring(1).toLowerCase() + " ";
             } else {
-                answer += String.valueOf(a.charAt(0)).toUpperCase() + a.substring(1, a.length()).toLowerCase();
+                answer += s1 + a.substring(1, a.length()).toLowerCase();
             }
+
             i++;
 
 

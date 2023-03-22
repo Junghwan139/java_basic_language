@@ -1,9 +1,6 @@
 package codingtest;
 
-import java.util.ArrayList;
-import java.util.List;
-
-public class A_Ct074_samchongsa {
+public class Ct074_samchongsa {
 
     public static void main(String[] args) {
 
@@ -32,6 +29,19 @@ public class A_Ct074_samchongsa {
 
         int[] numbers = {-2, 3, 0, 2, -5};
         int answer = 0;
+
+
+        for(int i =0;i<numbers.length;i++){
+            for(int j = i+1;j<numbers.length;j++){
+                for(int k = j+1;k<numbers.length;k++){
+                    if(numbers[i]+numbers[j]+numbers[k]==0){
+                        answer++;
+                    }
+                }
+            }
+        }
+
+        System.out.println(answer);
 
 
 

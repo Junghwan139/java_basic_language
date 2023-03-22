@@ -7,6 +7,12 @@ public class Doit_08_Inheritance {
 //        1. 상속이란?
 //        1) 클래스의 상속 : class B extends A {  } → B클래스가 A클래스를 상속 받는다
 //        2) 상속을 사용하여 고객 관리 프록램 구현하기
+
+//        2. 상속에서 클래스 생성과 형 변환
+//        1) 하위 클래스가 생성되는 과정 : 하위 클래스를 객체 생성하면 상위 클래스가 먼저 호출 되고, 이후에 하위 클래스가 호출됨
+//           → 하위 클래스 생성자에서 super()자동으로 호출하기 때문
+        VIPCustomer vips = new VIPCustomer();
+//        2) 부모를 부르는 예약어 super
 //
 
 
@@ -30,6 +36,7 @@ class Customer{
     public Customer(){
         customerGrade = "SILVER";
         bonusRatio = 0.01;
+        System.out.println("Customer() 생성자 호출");
     }
 
     public int getCustomerID() {
@@ -68,6 +75,7 @@ class Customer{
 
 }
 
+
 class VIPCustomer extends Customer{
     private int agentID;
     double saleRatio;
@@ -76,6 +84,7 @@ class VIPCustomer extends Customer{
         customerGrade = "VIP";
         bonusRatio = 0.05;
         saleRatio = 0.1;
+        System.out.println("VIPCustomer() 생성자 호출");
     }
 
     public int getAgentID(){
@@ -83,14 +92,6 @@ class VIPCustomer extends Customer{
     }
 
 }
-
-
-
-
-
-
-
-
 
 
 

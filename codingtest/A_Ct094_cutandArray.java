@@ -20,9 +20,10 @@ public class A_Ct094_cutandArray {
 1 ≤ n ≤ my_str의 길이
 my_str은 알파벳 소문자, 대문자, 숫자로 이루어져 있습니다.
 입출력 예
-my_str	n	result
+my_str	            n	result
 "abc1Addfggg4556b"	6	["abc1Ad", "dfggg4", "556b"]
-"abcdef123"	3	["abc", "def", "123"]
+"abcdef123"       	3	["abc", "def", "123"]
+
 입출력 예 설명
 입출력 예 #1
 

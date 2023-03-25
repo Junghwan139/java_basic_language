@@ -1,6 +1,6 @@
 package codingtest;
 
-public class A_Ct095_Dice {
+public class Ct095_Dice {
 
     public static void main(String[] args) {
 
@@ -36,6 +36,14 @@ box	n	result
 
 
 */
+
+        int[] box = {10,8,6};
+        int n = 3;
+        int answer = 0;
+
+        answer = (box[0]/n)*(box[1]/n)*(box[2]/n);
+
+        System.out.println(answer);
 
 
 

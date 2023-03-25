@@ -180,8 +180,7 @@ public class C_1W_Cla01_values_C {
         System.out.println("int자료형 iNum3에 int(double)+int(float) 대입 : " + iNum3);
         System.out.println("int자료형 inum4에 int(double+float) 대입 : " + iNum4);
 
-
-
+//        double값으로 출력이 필요할 때 연산 내용중 한개에만 (double)추가하면 전체 double로 출력
 
 
 /*

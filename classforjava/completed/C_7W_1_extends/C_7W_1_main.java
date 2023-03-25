@@ -18,7 +18,8 @@ public class C_7W_1_main {
 
 
 //        2. 구현(implements) : interface 파일을 별도로 생성하고 거기에 함수를 선언만 해놓음(body 없음). 구현하는 클래스에서는
-//                             모든 메서드를 정의 하도록 강제 -> 해당 클래스에서는 필수 적으로 interface의 모든 메소드를 override해야 함
+//                             모든 메서드를 정의 하도록 강제 -> 해당 클래스에서는 필수 적으로 interface의 모든 메소드를
+//                             override해야 함
 //                             자바에서 인터페이스 다중 구현은 가능하다.(구현은 메서드 내용 작성을 구현하는 클래스에서 하기 때문에 상관 없음)
 
 //        1) interface : 인터페이스에서 모든 메서드는 추상메서드. 즉, 내용이 구현되어 있으면 안됨.
@@ -29,8 +30,8 @@ public class C_7W_1_main {
 //        * List는 interface고, ArrayList, LinkedList 등 구현체들에게 메서드 overrideing을 강제 한다.
 
 
-//        3. 접근 제어자 : 클래스 public, default만 가능(private, protected불가)
-//                       범위 크기 → public > protected > default > private
+//        3. 접근 제어자 : 클래스는 public, default만 가능(private, protected불가)
+//                      <범위 크기> public > protected > default > private
 //        1) public : 모두 접근 가능        
 //        2) protected : 패키지내 또는 상속시 모두 접근 가능 / 변수의 경우 상속을 받을 경우 다른 패키지라 할지라도 접근 가능
 //                       ★★ 외부 패키지에서 상속받은 클래스를 통해서 protected 변수에 접근하려면 상속받은 자식 class를 new하여 접근

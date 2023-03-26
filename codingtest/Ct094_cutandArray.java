@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class A_Ct094_cutandArray {
+public class Ct094_cutandArray {
 
     public static void main(String[] args) {
 
@@ -38,17 +38,26 @@ my_str	            n	result
 
         String my_str = "abc1Addfggg4556b";
         int n = 6;
+        String[] answer;
 
         List<String> lst = new ArrayList<>(Arrays.asList(my_str.split("")));
 
-        if(my_str.length()/n ==0){
-            String[] answer = new String[my_str.length()/n];
+        if(my_str.length()%n ==0){
+            answer = new String[my_str.length()/n];
         }else{
-            String[] answer = new String[my_str.length()/n+1];
+            answer = new String[my_str.length()/n+1];
             }
 
+        for(int i =0;i<answer.length;i++){
+            if((i*n+n)>my_str.length()){
+                answer[i] = my_str.substring(i*n,my_str.length());
+            } else{
+                answer[i] = my_str.substring(i*n,(i*n)+n);
+            }
+        }
 
 
+        System.out.println(Arrays.toString(answer));
 
 
 

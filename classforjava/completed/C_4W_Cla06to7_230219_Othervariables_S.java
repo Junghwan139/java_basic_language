@@ -78,7 +78,8 @@ public class C_4W_Cla06to7_230219_Othervariables_S {
 
 //        3. List
 //         1) 선언 : List<String> lst = new Arraylist<>();  //Arraylist는 list의 종류
-//         2) 메소드 : 값 꺼내기 .get(index), 크기 .size(), 추가 .add, 제거 remove(값), 포함여부 contains(값), isEmpty()
+//         2) 메소드 : 값 꺼내기 .get(index), 크기 .size(), 추가 .add, 제거 remove(값), 포함여부 contains(값),
+//         isEmpty()
 //         3) 변환 List → 배열 : for문 사용, stream 사용
 //          - stream 사용
         List<String > l3 = new ArrayList<>();

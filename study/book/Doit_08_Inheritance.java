@@ -8,10 +8,13 @@ public class Doit_08_Inheritance {
 //        1) 클래스의 상속 : class B extends A {  } → B클래스가 A클래스를 상속 받는다
 //        2) 상속을 사용하여 고객 관리 프록램 구현하기
 
-//        2. 상속에서 클래스 생성과 형 변환
+//        2. 상속에서 클래스 생성과 형 변환★★★
 //        1) 하위 클래스가 생성되는 과정 : 하위 클래스를 객체 생성하면 상위 클래스가 먼저 호출 되고, 이후에 하위 클래스가 호출됨
 //           → 하위 클래스 생성자에서 super()자동으로 호출하기 때문
         VIPCustomer vips = new VIPCustomer();
+//      - ★★★ 선언을 Customer cu = new VIPCustomoer()로 할경우 cu는 customer클래스로 형변환 된 것!!
+//        따라서 VIPCustmoer()에서 만들어진 메소드는 사용할 수 없음(Customer 오버라이딩 메소드는 가능)
+
 //        2) 부모를 부르는 예약어 super
 //        3) 상위 클래스로 묵시적 클래스 형 변환 : Customer vs = new VIPCustomer();
 
@@ -38,6 +41,8 @@ public class Doit_08_Inheritance {
 //           - IS-A(상속o) / HAS-A (상속x)
 
 //        6. 다운 캐스팅과 instanceof
+//           - 다운캐스팅 : 상위 클래스로 형 변환되었던 하위 클래스를 다시 원래 자료형으로 형 변환하는 것
+//
 
 
 

@@ -22,6 +22,9 @@ class Eagle extends Animal{
     public void move(){
         System.out.println("독수리가 하늘을 납니다.");
     }
+    public void eagletest(){
+        System.out.println("eagle에서만 사용 가능한 함수입니다.");
+    }
 }
 
 public class AnimalTest {
@@ -32,6 +35,10 @@ public class AnimalTest {
         aTest.moveAnimal(new Human());
         aTest.moveAnimal(new Tiger());
         aTest.moveAnimal(new Eagle());
+
+        Animal ani_eagle = new Eagle();
+
+
     }
 
     public void moveAnimal(Animal animal){

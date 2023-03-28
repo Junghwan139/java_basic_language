@@ -44,7 +44,16 @@ sides	result
 
 */
 
-        int[] sides = {11, 7};
+        int[] sides = {1, 2};
+//        case1 : 두 수 중에서 큰 수가 가장 큰 변일 경우 → n > Math.abs(sides[0],sides[1])
+//        case2 : 나머지 한 변(n)이 가장 큰 변일 경우 → n < sides[0]+sides[1]  ★
+
+        int answer=0;
+
+        answer = sides[0]+sides[1] -(Math.abs(sides[0]-sides[1]))-1;
+        System.out.println(answer);
+
+
 
 
 

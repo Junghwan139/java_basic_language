@@ -1,6 +1,6 @@
 package codingtest;
 
-public class A_Ct101_triangel2 {
+public class Ct101_triangel2 {
 
     public static void main(String[] args) {
 
@@ -46,7 +46,7 @@ sides	result
 
         int[] sides = {1, 2};
 //        case1 : 두 수 중에서 큰 수가 가장 큰 변일 경우 → n > Math.abs(sides[0],sides[1])
-//        case2 : 나머지 한 변(n)이 가장 큰 변일 경우 → n < sides[0]+sides[1]  ★
+//        case2 : 나머지 한 변(n)이 가장 큰 변일 경우 → n < sides[0]+sides[1]
 
         int answer=0;
 

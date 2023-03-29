@@ -1,6 +1,6 @@
 package study.book;
 
-public class Doit_09_abs {
+public class Doit_09_abstract {
 
     public static void main(String[] args) {
 
@@ -20,6 +20,18 @@ public class Doit_09_abs {
 //        3) 추상 클래스를 만드는 이유
 
 //        2. 템플릿 메서드
+//           - 실행순서와 시나리오를 정의하는 것. 각각 개별적으로 선언, 구현되어 있는 메소드를 어떤 순서로 실행할지 정해 놓은 메서드
+//           - 상위 클래스를 상속받은 하위 클래스에서 템플릿 메서드를 재정의 하면 안됨 : final 예약어 사용
+
+//        3. 템플릿 메서드 응용하기
+
+//        4. final 예약어
+//        1) 상수를 의미하는 final 변수
+//        2) 상속할 수 없는 final 클래스
+//        3) 프로그램을 잘 구현하는 또 다른 방법
+
+
+
 
 
 

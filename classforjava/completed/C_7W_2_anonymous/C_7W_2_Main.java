@@ -24,8 +24,8 @@ public class C_7W_2_Main {
 
 //        << 예제 >> 인터페이스를 인스턴스로 만들기
         Animal_Interface a1 = new Animal_Interface() {
-            @Override
-            public void play() {
+            public
+            @Override void play() {
                 System.out.println("폴짝 폴짝 뜁니다.");
             }
 

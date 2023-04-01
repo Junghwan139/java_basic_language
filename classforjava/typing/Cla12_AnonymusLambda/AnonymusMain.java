@@ -53,6 +53,28 @@ public class AnonymusMain {
         AnimalInterface ai2 = (String a) -> System.out.println(a+"야옹야옹2");   // 화살표 함수 ->
         ai2.cry("abc");
 
+        AnimalInterface a3 = new AnimalInterface() {
+            @Override
+            public void cry(String a) {
+                System.out.println("cry cry"+a);
+            }
+        };
+
+
+        AnimalInterface a4 = new AnimalInterface() {
+            @Override
+            public void cry(String a) {
+                System.out.println("cry cry"+a);
+            }
+        };
+
+        // 인터페이스 이니까 구현을 하겠구나 예측
+        // 매개변수는 들어와야 함 그리고 ->와 같이 변할꺼다
+        // AnimalInterface a4 = (String a) -> System.out.println("cry cry"+a);
+
+
+
+
 
 
 

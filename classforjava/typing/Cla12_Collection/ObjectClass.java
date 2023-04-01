@@ -15,6 +15,9 @@ public class ObjectClass {
 
         // equals() 등 총 11개의 메서드가 object클래스내에 내장되어 있다.
 
+        //toString, equals는 모든 클래스가 가지고 있음
+
+
 
     }
 

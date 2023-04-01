@@ -23,6 +23,8 @@ public class C_7W_2_Main {
 //           익명객체를 통해 객체화 할 수 있고, 인터페이스는 어짜피 오버라이딩 해서 사용해야 하기 때문에..
 
 //        << 예제 >> 인터페이스를 인스턴스로 만들기
+
+        // 인터페이스로 객체를 만드니 구현을 하겠구나 예측
         Animal_Interface a1 = new Animal_Interface() {
             public
             @Override void play() {
@@ -41,8 +43,10 @@ public class C_7W_2_Main {
 
 //        2. (2단계) 익명 함수 : 부모 클래스 또는 인터페이스에 함수가 1개인 경우 익명함수로 바꿀 수 있음.
 
-        Animal_Interface2 a2 = a -> System.out.println(a+"play 예시 입니다.");
+        Animal_Interface2 a2 = (String a) -> System.out.println(a+"play 예시 입니다.");
         a2.play("abc");
+
+//        3. Comparator * 추가사항
 
         Student st1 = new Student();
         st1.setName("kim");
@@ -63,18 +67,32 @@ public class C_7W_2_Main {
         lst.add(st1);
         lst.add(st2);
         lst.add(st3);
-        
+
+/*
         // Comparator 보완 필요
         lst.sort(Comparator.comparing(a -> a.getClassnum()));
 
         for(Student a : lst){
             System.out.println(a.getName());
         }
+*/
+        Collections.sort(lst,((o1, o2) -> o1.getName().compareTo(o2.getName())));
+
+        for(Student a : lst){
+            System.out.println(a.getName());
+        }
+
+
+
+
+
 
 
     }
 
 }
+
+
 
 
 class Student{

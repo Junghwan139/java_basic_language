@@ -5,6 +5,8 @@ public class C_7W_2_Object_Class {
     public static void main(String[] args) {
 
 //        1. Object : 자바의 모든 클래스의 조상클래스, 별도로 만든 개별클래스의 부모도 extends object가 생략되어 있는 것.
+//           toString(), equals()는 object에서 왔음
+
 
 //        2. Math
 //        1) .random() : 임의의 double형 0이하 실수값을 반환하는 것

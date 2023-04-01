@@ -21,7 +21,7 @@ public class TimePackage {
         LocalTime present = LocalTime.now();
         System.out.println(present);
 
-        LocalDateTime now = LocalDateTime.now();
+        LocalDateTime now = LocalDateTime.now();  // ★★★가장 많이 사용되고 있음
         //지금과 비교할때
         // of()는 내가 직접 만드는 것
         LocalDateTime input = LocalDateTime.of(2024,02,16,17,05,16);

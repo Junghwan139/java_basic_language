@@ -1,6 +1,7 @@
-package classforjava.typing.Thread;
+package classforjava.typing.a_Cla13.Thread;
 
-public class MainClass {
+public class MainClass_y {
+/*
 
     static int total = 100;
 
@@ -19,6 +20,7 @@ public class MainClass {
             System.out.println(total);
         }));
 
+*/
 /*
 
         // th2 이라는 쓰레드 생성
@@ -30,10 +32,12 @@ public class MainClass {
             }
         }));
 
-*/
+*//*
+
+
 
 
 
     }
-
+*/
 }

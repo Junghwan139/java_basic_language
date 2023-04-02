@@ -1,4 +1,4 @@
-package classforjava.typing.a_Cla13.Thread;
+package classforjava.typing.Cla13_ThreadGeneriStream.Thread;
 
 public class LibraryMultiThread implements Runnable {
     static int book_total = 100;

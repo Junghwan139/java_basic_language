@@ -42,9 +42,19 @@ public class C_7W_2_Main {
         a1.shape();
 
 //        2. (2단계) 익명 함수 : 부모 클래스 또는 인터페이스에 함수가 1개인 경우 익명함수로 바꿀 수 있음.
+        // 객체 생성 new class 또는 인터페이스명을 함수로 바꿀 수 있음.
 
         Animal_Interface2 a2 = (String a) -> System.out.println(a+"play 예시 입니다.");
         a2.play("abc");
+
+        Animal_Interface2 a3 = new Animal_Interface2() {
+            @Override
+            public void play(String a) {
+
+            }
+        };
+
+
 
 //        3. Comparator * 추가사항
 

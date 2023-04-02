@@ -1,4 +1,4 @@
-package classforjava.typing.a_Cla13.Thread.Generic;
+package classforjava.typing.Cla13_ThreadGeneriStream.Generic;
 
 public class MainClass {
 

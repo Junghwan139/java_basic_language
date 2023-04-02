@@ -1,4 +1,4 @@
-package classforjava.typing.a_Cla13.Thread;
+package classforjava.typing.Cla13_ThreadGeneriStream.Exception;
 
 import java.util.Scanner;
 

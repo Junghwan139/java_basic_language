@@ -1,4 +1,4 @@
-package classforjava.completed.C_8W_1_EnumIteratorCompare.EnumClass;
+package classforjava.completed.C_8W_1_Cla12_EnumIteratorCompare.EnumClass;
 
 public class EnumMain {
 

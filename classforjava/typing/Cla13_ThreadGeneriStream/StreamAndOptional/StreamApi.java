@@ -1,4 +1,4 @@
-package classforjava.typing.a_Cla13.Thread.StreamAndOptional;
+package classforjava.typing.Cla13_ThreadGeneriStream.StreamAndOptional;
 
 import java.util.Arrays;
 

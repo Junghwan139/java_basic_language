@@ -1,4 +1,4 @@
-package classforjava.typing.a_Cla13.Thread;
+package classforjava.typing.Cla13_ThreadGeneriStream.Thread;
 
 public class MainClass {
 
@@ -104,11 +104,6 @@ public class MainClass {
 
 
 //        제넬릭 <> 왜 <>을 사용하는가 자유도를 높이기 위해서
-
-
-
-
-
 
 
 

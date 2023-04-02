@@ -1,4 +1,4 @@
-package classforjava.typing.enumpackage;
+package classforjava.typing.Cla12_Collection.Enum;
 
 public class EnumMain {
 

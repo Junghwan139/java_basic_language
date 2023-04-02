@@ -1,4 +1,4 @@
-package classforjava.completed.C_8W_1_EnumIteratorCompare;
+package classforjava.completed.C_8W_1_Cla12_EnumIteratorCompare;
 
 import java.util.ArrayList;
 import java.util.Collections;

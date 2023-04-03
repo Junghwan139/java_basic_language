@@ -12,7 +12,7 @@ public class OptionalClass {
 //        System.out.println("hello world");
 
         // optional 객체 생성
-        Optional<String> opt = Optional.of("aaa");  //opt변수에 null을 셋팅한 것
+        Optional<String> opt = Optional.of("zzz");  //opt변수에 null을 셋팅한 것
         // orElse : 값이 있으면 그 값, 없으면 none, orElseThrow등의 메서드를 통해 optional에서 String으로 꺼내줘야 한다.
         System.out.println(opt.orElse("none"));
         System.out.println(opt.orElse("none").compareTo("abc"));

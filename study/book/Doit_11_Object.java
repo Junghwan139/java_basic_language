@@ -110,7 +110,5 @@ class Person_11 {
         this.age = age;
     }
 
-    // dd
-
 
 }

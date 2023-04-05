@@ -1,9 +1,6 @@
 package codingtest;
 
-import java.util.Arrays;
-import java.util.Map;
-
-public class A_Ct106_binSum {
+public class Ct106_binSum {
 
     public static void main(String[] args) {
 
@@ -35,8 +32,8 @@ bin1	bin2	result
 
 */
 
-        String bin1 = "1001";
-        String bin2 = "1111";
+        String bin1 = "111";
+        String bin2 = "111";
         String answer = "";
 
         int bin1_int = 0;
@@ -45,20 +42,18 @@ bin1	bin2	result
 
         for(String a : bin1.split("")){
 
-            bin1_int += Integer.parseInt(a)*(int)Math.pow(2,num-1);
+            bin1_int += Integer.parseInt(a)*Math.pow(2,num-1);
             num--;
 
         }
 
-        num = bin1.length();
+        num = bin2.length();
         for(String a : bin2.split("")){
 
-            bin2_int += Integer.parseInt(a)*(int)Math.pow(2,num-1);
+            bin2_int += Integer.parseInt(a)*Math.pow(2,num-1);
             num--;
 
         }
-
-        System.out.println(bin1_int+bin2_int);
 
         int total = bin1_int+bin2_int;
 
@@ -69,19 +64,38 @@ bin1	bin2	result
 
         }
 
-        System.out.println(answer);
-
-        String answer2 ="";
+        String[] answer2 = new String[answer.length()];
+        num = answer.length()-1;
         for(String a : answer.split("")){
+            answer2[num] = a;
+            num--;
 
-            answer2 +=a;
+        }
+        answer = "";
+
+        // 문자열 뒤집는 메소드 확인
+
+        for(String a : answer2){
+
+            answer += a;
 
         }
 
-        System.out.println(answer2);
+        System.out.println(answer);
+
+
+
+
 
 
 
     }
 
+}
+
+
+class Ct106_Solution {
+    public String solution(String bin1, String bin2) {
+        return Integer.toBinaryString(Integer.parseInt(bin1, 2) + Integer.parseInt(bin2, 2));
+    }
 }

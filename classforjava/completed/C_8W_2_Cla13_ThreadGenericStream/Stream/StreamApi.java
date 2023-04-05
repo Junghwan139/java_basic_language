@@ -1,4 +1,4 @@
-package classforjava.completed.C_8W_2_Cla13_ThreadGenericStream.StreamAndOptional;
+package classforjava.completed.C_8W_2_Cla13_ThreadGenericStream.Stream;
 
 import java.util.ArrayList;
 import java.util.Arrays;

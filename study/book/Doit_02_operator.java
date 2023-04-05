@@ -68,5 +68,11 @@ public class Doit_02_operator {
 
 //        8) 비트 논리 연산자
 
+        int num2 = 3;
+        int num3 = 5;
+        int result = num2|num3;
+        System.out.println(result);
+
+
     }
 }

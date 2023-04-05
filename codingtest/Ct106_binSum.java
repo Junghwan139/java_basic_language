@@ -83,6 +83,9 @@ bin1	bin2	result
 
         System.out.println(answer);
 
+        Ct106_Solution_2 ct2 = new Ct106_Solution_2();
+        System.out.println(ct2.solution("2","3"));
+
 
 
 
@@ -97,5 +100,19 @@ bin1	bin2	result
 class Ct106_Solution {
     public String solution(String bin1, String bin2) {
         return Integer.toBinaryString(Integer.parseInt(bin1, 2) + Integer.parseInt(bin2, 2));
+    }
+}
+class Ct106_Solution_2 {
+    public int solution(String bin1, String bin2) {
+
+        int answer = 0;
+
+        int bin1_int = 3;
+        int bin2_int = 5;
+
+        answer = bin1_int|bin2_int;
+
+        return answer;
+
     }
 }

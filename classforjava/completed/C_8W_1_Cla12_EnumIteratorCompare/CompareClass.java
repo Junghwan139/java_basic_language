@@ -18,7 +18,11 @@ public class CompareClass {
         String a = "abc";
         String b = "ddd";
         System.out.println(a.compareTo(b));
+        Integer k = 10;
+        Integer j = 4;
+        System.out.println(k.compareTo(j));
 
+//        2. compare
         List<String> lst = new ArrayList<>();
         lst.add("abc");
         lst.add("ddd");
@@ -28,8 +32,6 @@ public class CompareClass {
         Collections.sort(lst);
         System.out.println(lst);
 
-//        2. compare
-
         Collections.sort(lst, new Comparator<String>() {
             @Override
             public int compare(String o1, String o2) {
@@ -38,11 +40,8 @@ public class CompareClass {
         });
         System.out.println(lst);
 
-        Integer k = 10;
-        Integer j = 4;
-
-        System.out.println(k.compareTo(j));
-
+        Collections.sort(lst,(o1, o2) -> o1.compareTo(o2));
+        System.out.println(lst);
 
 
 

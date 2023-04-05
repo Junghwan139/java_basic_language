@@ -1,4 +1,4 @@
-package classforjava.completed.C_8W_2_Cla13_ThreadGenericStream.Exception;
+package classforjava.completed.C_8W_2_Cla13_ThreadGenericStream.OptionalAndException;
 
 import java.util.Scanner;
 

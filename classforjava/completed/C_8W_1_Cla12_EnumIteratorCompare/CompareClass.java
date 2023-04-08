@@ -43,6 +43,8 @@ public class CompareClass {
         Collections.sort(lst,(o1, o2) -> o1.compareTo(o2));
         System.out.println(lst);
 
+        
+
 
 
 

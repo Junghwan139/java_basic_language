@@ -25,7 +25,7 @@ public class C_7W_1_main {
 //        1) interface : 인터페이스에서 모든 메서드는 추상메서드. 즉, 내용이 구현되어 있으면 안됨.
 
 //        * Overloading & Overriding : overloading은 메소드의 매개변수를 달리하여(갯수, 타입) 재정의 하는 것
-//                                     overriding은 상속 또는 구현 시 메소드를 재정의 하는 것
+//          (오버로딩 vs 오버로딩)         overriding은 상속 또는 구현 시 메소드를 재정의 하는 것
 //          override일 경우 @Overrride라고 어노테이션 해줄 것
 //        * List는 interface고, ArrayList, LinkedList 등 구현체들에게 메서드 overrideing을 강제 한다.
 

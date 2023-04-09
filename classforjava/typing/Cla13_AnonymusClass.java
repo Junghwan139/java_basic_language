@@ -1,6 +1,6 @@
 package classforjava.typing;
 
-public class Cla13 {
+public class Cla13_AnonymusClass {
 
 //    익명클래스 만드는 이유 인터페이스 구현(일반적으로)
 

@@ -1,4 +1,4 @@
-package study.book;
+package study.book.Doit_07;
 
 import java.util.Arrays;
 

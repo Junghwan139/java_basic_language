@@ -1,4 +1,4 @@
-package classforjava.typing.A_Cla14.FileStream;
+package classforjava.typing.Cla14_FileStream;
 
 import java.io.*;
 

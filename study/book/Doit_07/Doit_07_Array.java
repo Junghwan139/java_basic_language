@@ -33,9 +33,9 @@ public class Doit_07_Array {
         int[] array1 = {10,20, 30, 40, 50};
         int[] array2 = {1,2,3,4,5};
 
-        System.out.println(Arrays.toString(array2));
+        System.out.println("최초 array2 : " + Arrays.toString(array2));
         System.arraycopy(array1,0,array2,1,4);
-        System.out.println(Arrays.toString(array2));
+        System.out.println("array1에 있는 값을 array2로 복사한 후 : "+Arrays.toString(array2));
 
 //        7) 향상된 for문과 배열
 //        2. 다차원 배열

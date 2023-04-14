@@ -17,7 +17,8 @@ public class IteratorClass {
 
         Iterator<Integer> it = mp.keySet().iterator();
         // mp.keySet().iterator();이걸 먼저 만들고 이걸 받을 iterator를 선언한다.
-        // 대부분의 컬렉션프레임워크 자료형에 iterator()라는 메서드가 내장되어 있고, 해당 메서드의 return값은 iterator객체이다.
+        // 대부분의 컬렉션프레임워크 자료형에 iterator()라는 메서드가 내장되어 있고,
+        // 해당 메서드의 return값은 iterator객체이다.
 
         while (it.hasNext()){
             System.out.println(it.next());

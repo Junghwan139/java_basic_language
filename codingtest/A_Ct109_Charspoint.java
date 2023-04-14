@@ -43,9 +43,12 @@ keyinput	board	result
 
 */
 
-        String[] keyinput = {"left", "right", "up", "right", "right"};
-        int[] board = {11, 11};
-        int[] answer = new int[2];
+        String[] keyinput = {"left", "left", "left", "right"};
+        int[] board = {3, 3};
+
+        int[] answer = {0,0};
+        int[] board_hf = {board[0]/2,board[1]/2};
+
 
         Map<String, Integer> mp = new HashMap<>();
         mp.put("right",1);
@@ -55,16 +58,29 @@ keyinput	board	result
 
         for(int i = 0;i<keyinput.length;i++){
             if(keyinput[i].equals("left")||keyinput[i].equals("right")){
-                board[0] = board[0]+mp.get(keyinput[i]);
+                answer[0] = answer[0]+mp.get(keyinput[i]);
+                System.out.println("answer[0]"+answer[0]);
             }else{
-                board[1] = board[1]+mp.get(keyinput[i]);
+                answer[1] = answer[1]+mp.get(keyinput[i]);
+                System.out.println("answer[1]"+answer[1]);
+
             }
         }
 
-        answer[0] = board[0];
-        answer[1] = board[1];
 
+       if(answer[0] > 0 && answer[0] > board_hf[0]){
+           answer[0] = board_hf[0];
+       }else if(answer[0]<0 && answer[0] < -board_hf[0]){
+           answer[0] = -board_hf[0];
+       }
+
+        if(answer[1] > 0 &&  answer[1] > board_hf[1]){
+            answer[1] = board_hf[1];
+        }else if(answer[1]<0 && answer[1] < -board_hf[1]){
+            answer[1] = -board_hf[1];
+        }
         System.out.println(Arrays.toString(answer));
+
 
 
 

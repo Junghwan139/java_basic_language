@@ -10,6 +10,7 @@ public class CustomerTest2 {
         customerKim.bonusPoint = 10000;
         System.out.println(customerKim.showCustomerInfor());
 
+
     }
 
 }

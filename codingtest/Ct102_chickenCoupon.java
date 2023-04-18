@@ -1,6 +1,6 @@
 package codingtest;
 
-public class A_Ct102_chickenCoupon {
+public class Ct102_chickenCoupon {
 
     public static void main(String[] args) {
 

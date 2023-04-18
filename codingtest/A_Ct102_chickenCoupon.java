@@ -2,6 +2,8 @@ package codingtest;
 
 public class A_Ct102_chickenCoupon {
 
+    public static void main(String[] args) {
+
 
 /*
 
@@ -39,6 +41,27 @@ chicken	result
 
 
 */
+
+        int chicken = 1081;
+        int answer = 0;
+
+        while(chicken>=10){
+
+           answer += chicken / 10;
+           chicken = chicken/10 + chicken%10;
+
+        }
+
+        System.out.println(answer);
+
+
+
+
+
+
+
+    }
+
 
 
 }

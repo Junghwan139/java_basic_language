@@ -1,6 +1,8 @@
 package codingtest;
 
+import java.util.Arrays;
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.Map;
 
 public class A_Ct087_right {
@@ -35,13 +37,38 @@ s	answer
 
 
 
-
+/*
         String s = "(())()";
         boolean answer = true;
 
         if(String.valueOf(s.charAt(0)).equals(")")||String.valueOf(s.charAt(s.length()-1)).equals("(")){
             answer = false;
         }
+
+        */
+
+        String s = "(())()";
+        boolean answer = true;
+
+        Iterator<String> it = Arrays.stream(s.split("")).iterator();
+        String temp1 = "";
+        String temp2 = "";
+        while(it.hasNext()){
+            temp1 = it.next();
+            if(temp1.equals(")") && temp2.equals("(")){
+                answer = false;
+                break;
+            }else{
+                temp2 = temp1;
+            }
+
+
+        }
+
+        System.out.println(answer);
+
+
+
 
     }
 

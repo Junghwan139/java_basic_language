@@ -2,6 +2,7 @@ package codingtest;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Iterator;
 import java.util.List;
 
 public class A_Ct100_CalStr {
@@ -40,23 +41,6 @@ my_string	result
         String my_string ="3 + 4 - 9";
         int answer = 0;
 
-        String[] arr_mystring = my_string.split(" ");
-        List<Integer> num_lst = new ArrayList<>();
-        List<String> cal_lst = new ArrayList<>();
-
-        for(int i =0;i<arr_mystring.length;i++){
-            if(i%2==0){
-                num_lst.add(Integer.valueOf(arr_mystring[i]));
-            }else{
-                cal_lst.add(arr_mystring[i]);
-            }
-        }
-
-        for(int i =0;i<cal_lst.size();i++){
-
-
-
-        }
 
 
 

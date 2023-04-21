@@ -78,6 +78,12 @@ Delete : delete
  - DELETE
    DELETE FROM 테이블이름 WHERE 필드이름 = 데이터값
 
+ - 열이름 변경
+   ALTER TABLE 테이블이름 CHANGE 열이름 변경열이름 변경열타입
+
+ - 열순서 변경
+   ALTER TABLE 테이블이름 MODIFY COLUMN 열이름 열타입 AFTER 열이름
+
 
 
 

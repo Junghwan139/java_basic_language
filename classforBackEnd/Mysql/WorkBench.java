@@ -37,7 +37,7 @@ ex) select * from author order by Name desc, email desc;
  - UNSIGNED : 마이너스 사용x, 모두 양수로
 
 (실수)
- - 고정 소수점 타입 DECIBAL(M,D  / Bigdecimal) : M은 총자릿수(정수부+소수부) 65자리까지 표현,
+ - 고정 소수점 타입 DECIMAL(M,D  / Bigdecimal) : M은 총자릿수(정수부+소수부) 65자리까지 표현,
                                              D는 소수부 의미
  - 부동 소수점 타입 (float, double) : 오차가 발생할 여지가 있음
 

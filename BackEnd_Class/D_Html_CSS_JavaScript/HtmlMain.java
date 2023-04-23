@@ -1,6 +1,6 @@
 package BackEnd_Class.D_Html_CSS_JavaScript;
 
-public class Html {
+public class HtmlMain {
 
     public static void main(String[] args) {
 

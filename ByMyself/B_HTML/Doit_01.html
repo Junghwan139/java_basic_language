@@ -32,10 +32,25 @@
          target : action속성에서 지정한 스크립트 파일을 현재 창이 아닌 다른 위치에서 열도록 합니다.
 
          - 폼 요소를 그룹으로 묶는 <fieldset>, <legend> 태그
-
          - 웹 폼의 다양한 곳에서 사용하는 <input> 태그
-
-
+         - 텍스트와 비밀번호를 나타내는 type = "text"와 type = "password"
+         - 다양한 용도에 맞게 입력하는 type="search", type = "url", type = "email", type ="tel"
+         - 체크 박스와 라디오 버튼을 나타내는 type = "checkbox", type = "radio"
+         - 숫자 입력 필드를 나타내는 type = "number", type = "range"
+         - 날짜 입력을 나타내는 type ="date", type = "month", type="week"
+         - 시간 입력을 나타내는 type = "time", type = "datetime", type = "datetime-local"
+         - 전송, 리셋 버튼을 나타내는 type = "submit", type = "reset"
+         - 이미지 버튼을 나타내는 type = "image"
+         - 기본 버튼을 나타내는 type = "button"
+         - 파일을 첨부할 때 사용하는 type = "file"
+         - 히든 필드 만들 때 사용하는 type="hidden"
+         - 자동으로 입력 커서를 갖다 놓는 autofocus속성
+         - 힌트를 표시해 주는 placeholder속성
+         - 읽기 전용 필드를 만들어 주는 readonly속성
+         - 필수 입력필드를 지정하는 required속성
+         - 여러 줄을 입력하는 텍스트 영역<textarea>태그
+         - 드롭다운 목록을 만들어 주는 <select>, <option> 태그
+         - 데이터 목록을 만들어 주는 <datalist>, <option> 태그
         -->
 
         <form>
@@ -50,7 +65,18 @@
             <input type="reset" value="취소">
 
             </div>
+
+                <button type = "submit">주문하기</button>
+                <button type = "reset">취소하기</button>
+
             </fieldset>
+
+            <label for = "prod">포장여부</label>
+            <input type = "text" id = "prod" list = "pack">
+            <datalist id = "pack">
+                <option value = "package"> 선물 포장</option>
+                <option value = "no package">포장 안 함</option>
+            </datalist>
 
 
 

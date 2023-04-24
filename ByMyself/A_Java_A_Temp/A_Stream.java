@@ -11,6 +11,13 @@ public class A_Stream {
         Stream<String> stream = Arrays.stream(arr);
         System.out.println(stream);
 
+        /*
+        참고
+        https://mangkyu.tistory.com/114
+
+
+        */
+
 
 
 

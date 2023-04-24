@@ -2,7 +2,7 @@ package ByMyself.A_Java_C_Codingtest;
 
 import java.util.Arrays;
 
-public class Ct24_maxValue {
+public class Ct024_maxValue {
     public static void main(String[] args) {
 
 

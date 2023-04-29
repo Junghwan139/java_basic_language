@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>타이틀</title>
+    </head>
+        <h1> 1. HTML 시작하기 </h1>
+
+        <body>
+
+        <p> 1) 사진 / 링크 추가 하기</p>
+        <a href="http://www.naver.com" target="_blank">
+            <img src="pic_1.jpg" width="200" height="150" alt="사진"></a>
+        <br>
+        <br>
+
+        <p> 2) 폼 삽입하기</p>
+
+        <!--
+
+         - 폼을 만드는 <form> 태그
+
+         <form [속성="속성값]>여러 폼 요소 </form>
+         속성 값
+         method : 사용자가 입력한 내용을 서버 쪽 프로그램으로 어떻게 넘겨줄 것인지 지정
+         method에서 사용할 수 있는 속성값은 get과 post
+         get : 데이터를 256~4,096byte까지만 서버로 넘길 수 있습니다. 주소 표시줄에 사용자가
+         입력한 내용이 그대로 드러나는 단점이 있다.
+         post : 입력한 내용의 길이에 제한받지 않고 사용자가 입력한 내용도 드러나지 않는다.
+         name : 자바 스크립트로 폼을 제어할 때 사용할 폼의 이름을 지정
+         action : <form> 태그 안의 내용을 처리해 줄 서버 프로그램을 지정합니다.
+         target : action속성에서 지정한 스크립트 파일을 현재 창이 아닌 다른 위치에서 열도록 합니다.
+
+         - 폼 요소를 그룹으로 묶는 <fieldset>, <legend> 태그
+         - 웹 폼의 다양한 곳에서 사용하는 <input> 태그
+         - 텍스트와 비밀번호를 나타내는 type = "text"와 type = "password"
+         - 다양한 용도에 맞게 입력하는 type="search", type = "url", type = "email", type ="tel"
+         - 체크 박스와 라디오 버튼을 나타내는 type = "checkbox", type = "radio"
+         - 숫자 입력 필드를 나타내는 type = "number", type = "range"
+         - 날짜 입력을 나타내는 type ="date", type = "month", type="week"
+         - 시간 입력을 나타내는 type = "time", type = "datetime", type = "datetime-local"
+         - 전송, 리셋 버튼을 나타내는 type = "submit", type = "reset"
+         - 이미지 버튼을 나타내는 type = "image"
+         - 기본 버튼을 나타내는 type = "button"
+         - 파일을 첨부할 때 사용하는 type = "file"
+         - 히든 필드 만들 때 사용하는 type="hidden"
+         - 자동으로 입력 커서를 갖다 놓는 autofocus속성
+         - 힌트를 표시해 주는 placeholder속성
+         - 읽기 전용 필드를 만들어 주는 readonly속성
+         - 필수 입력필드를 지정하는 required속성
+         - 여러 줄을 입력하는 텍스트 영역<textarea>태그
+         - 드롭다운 목록을 만들어 주는 <select>, <option> 태그
+         - 데이터 목록을 만들어 주는 <datalist>, <option> 태그
+        -->
+
+        <form>
+
+            <fieldset>
+                <legend> 이벤트와 새로운 소식 </legend>
+                <label>아이디 : <input type="text" id="user_id" size="10"></label><br>
+                <label>비밀번호 : <input type="password" id="user_pw" size="10"></label><br>
+                <label>검색 : <input type="search" id="ser" size="10"></label>
+            <div id = "buttons">버튼
+            <input type="submit" value="가입하기">
+            <input type="reset" value="취소">
+
+            </div>
+
+                <button type = "submit">주문하기</button>
+                <button type = "reset">취소하기</button>
+
+            </fieldset>
+
+            <label for = "prod">포장여부</label>
+            <input type = "text" id = "prod" list = "pack">
+            <datalist id = "pack">
+                <option value = "package"> 선물 포장</option>
+                <option value = "no package">포장 안 함</option>
+            </datalist>
+
+
+
+        </form>
+
+
+
+
+
+
+
+
+
+
+        </body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <!-- 1. 스타일을 별도 css에 만들고 링크로 연결
+    <link rel = "stylesheet" href = "style.css">
+    -->
+
+    <!-- 2. html안에 sytle 작성 -->
+    <style>
+
+
+        h1,p{ font-style : italic; }
+
+        .accent{
+        border : 1px solid #000;
+        padding : 5px;
+        }
+
+        body { font-family :"맑은 고딕", 돋움, 굴림}
+
+
+
+    </style>
+    <!-- 3. html안에 sytle class 작성 -->
+    <!-- 4. html안에 sytle id 작성 -->
+
+
+
+</head>
+    <body>
+    <h1>레드향</h1>
+    <p class = "accent">껍질에 붉은 빛이 돌아 레드향이라 불린다.</p>
+
+
+
+    </body>
+</html>
+
+<!-- 캐스캐이딩 스타일 시트
+
+1. 캐스케이딩의 의미
+ - CSS에서 C는 캐스케이딩의 줄임말이며 스타일 시트에서는 우선순위 위에서 아래, 즉 계단식으로
+적용된다는 의미로 상요. css는 우선순위가 있는 스타일 시트.
+CSS에서는 웹 요소에 둘 이상의 스타일을 적용할 때 우선순위에 따라 적용할 스타일을 결정
+ - 스타일 우선순위 : 스타일 규칙의 중요도와 적용 범위에 따라 우선순위가 결정되고, 그 우선순위에 따라 위에서
+아래로 스타일을 적용.
+ - 스타일 상속 : 태그의 포함 관계에 따라 부모 요소의 스타일을 자식 요소로, 위에서 아래로 전
+ - 스타일 우선순위 : 사용자 스타일 → 제작자 스타일 → 브라우저 기본 스타일
+ - 중요도가 같을 경우 : !important → 인라인 스타일 → id 스타일 → 클래스 스타일 → 타입 스타일
+
+-->

@@ -60,12 +60,12 @@ public class Cla06_230219_OtherVariables {
 
 //        indexOf : 특정 문자가 특정문자에 몇번째 index에 해당하는지 int로 return
         String a = "Hello Java";
-        int num = a.indexOf("ByMyself");
+        int num = a.indexOf("Study");
         System.out.println(num);
-        System.out.println(a.indexOf("ByMyself"));
+        System.out.println(a.indexOf("Study"));
 
 //        contains : 특정 문자가 특정문자에 포함되어 있는지 아닌지를 boolean으로 return
-        System.out.println(a.contains("ByMyself"));
+        System.out.println(a.contains("Study"));
 
         String st1 = "Hello Java World";
 //        문자 o를 전부 a로 바꿔서 출력하는 게임을 만들어보자.

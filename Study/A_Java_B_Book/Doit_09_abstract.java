@@ -33,11 +33,6 @@ public class Doit_09_abstract {
 
 
 
-
-
-
-
-
     }
 
 }

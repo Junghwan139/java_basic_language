@@ -14,8 +14,7 @@ public class test {
         lst.add("a");
 
         System.out.println(lst);
-
-
+        
 
 
     }

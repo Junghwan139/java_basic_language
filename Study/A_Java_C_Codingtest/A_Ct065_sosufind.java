@@ -1,4 +1,4 @@
-package Study.A_Java_C_Codingtest.ThinkingAbout;
+package Study.A_Java_C_Codingtest;
 
 import java.util.HashMap;
 import java.util.Map;

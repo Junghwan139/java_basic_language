@@ -54,12 +54,9 @@ strArr[1]은 홀수번째 인덱스의 문자열이므로 대문자로 바꿔서
                 answer[i]=strArr[i].toLowerCase();
 
             }else{
-
                 answer[i]=strArr[i].toUpperCase();
             }
-
         }
-
         System.out.println(Arrays.toString(answer));
 
 

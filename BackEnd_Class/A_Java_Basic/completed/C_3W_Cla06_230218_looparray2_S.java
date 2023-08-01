@@ -67,6 +67,27 @@ public class C_3W_Cla06_230218_looparray2_S {
 
 //        - (복습) selection sort
 
+        int[] arr2 = {90, 20, 10, 80, 30, 100};
+        int temp2 = 0;
+
+        for(int i = 0;i<arr2.length-1;i++){
+
+            for(int j = i+1; j<arr2.length;j++){
+
+                if(arr2[i]>arr2[j]){
+                    temp2 = arr2[i];
+                    arr2[i] = arr2[j];
+                    arr2[j] = temp2;
+                }
+
+
+            }
+
+        }
+
+        System.out.println(Arrays.toString(arr2));
+
+
 //        1. continue문 : 만나면 반복문으로 올라감 continue문 아래 실행 x
 //        2. break문 : 가장 가까운 반복문을 종료시킴. 다중 반복문일 경우 다른 반복문을 종료
 //                     시키고 싶으면 라벨링을 해야 함.

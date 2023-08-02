@@ -56,6 +56,9 @@ public class C_4W_Cla06to7_230219_Othervariables_S {
         String st6 = String.join(" ",st_arr);
         System.out.println(st6);
 
+
+
+
 //           - 정리 : Trim, Strip(사용)
 //           * 공백체크 : isEmpty(), isBlank()
 
